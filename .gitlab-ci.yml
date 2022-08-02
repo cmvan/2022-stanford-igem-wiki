@@ -18,7 +18,9 @@ pages:
     - main
   script:
     - rm -rf public
-    - mkdir public && cp -rf public/* public
+    - mkdir .public
+    - cp -rf .public
+    - mv .public public
   artifacts:
     paths:
       - public
