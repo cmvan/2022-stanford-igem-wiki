@@ -20,7 +20,6 @@ function App() {
         <Route path="experiments" element={<Pages.Experiments />} />
         <Route path="implementation" element={<Pages.Implementation />} />
         <Route path="notebook" element={<Pages.Notebook />} />
-        <Route path="partnership" element={<Pages.Partnership />} />
         <Route path="proof-of-concept" element={<Pages.ProofOfConcept />} />
         <Route path="part-collection" element={<Pages.PartCollection />} />
         <Route path="parts" element={<Pages.Parts />} />
@@ -28,12 +27,10 @@ function App() {
         <Route path="safety" element={<Pages.Safety />} />
         <Route path="human-practices" element={<Pages.HumanPractices />} />
         <Route path="education" element={<Pages.Education />} />
-        <Route path="entrepreneurship" element={<Pages.Entrepreneurship />} />
         <Route path="inclusivity" element={<Pages.Inclusivity />} />
         <Route path="measurement" element={<Pages.Measurement />} />
         <Route path="model" element={<Pages.Model />} />
         <Route path="team" element={<Pages.Team />} />
-        <Route path="software" element={<Pages.Software />} />
         <Route path="sustainable" element={<Pages.Sustainable />} />
         <Route path="*" element={<Pages.Error />} />
       </Routes>

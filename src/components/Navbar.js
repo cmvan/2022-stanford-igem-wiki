@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function NavScroll() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="brown" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">Stanford</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -16,8 +16,8 @@ export default function NavScroll() {
             navbarScroll
           >
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <NavDropdown title="Team">
-              <NavDropdown.Item as={Link} to="/team">Team</NavDropdown.Item>
+            <NavDropdown title="People">
+              <NavDropdown.Item as={Link} to="/team">Meet the Team!</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/attributions">Attributions</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/collaborations">Collaborations</NavDropdown.Item>
             </NavDropdown>
@@ -29,7 +29,6 @@ export default function NavScroll() {
               <NavDropdown.Item as={Link} to="/experiments">Experiments</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/implementation">Implementation</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/notebook">Notebook</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/partnership">Partnership</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/proof-of-concept">Proof of Concept</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/results">Results</NavDropdown.Item>
             </NavDropdown>
@@ -42,11 +41,9 @@ export default function NavScroll() {
             <Nav.Link as={Link} to="/human-practices">Human Practices</Nav.Link>
             <NavDropdown title="Awards">
               <NavDropdown.Item as={Link} to="/education">Education</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/entrepreneurship">Entrepreneurship</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/inclusivity">Inclusivity</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/measurement">Measurement</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/model">Model</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/software">Software</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/sustainable">Sustainable</NavDropdown.Item>
             </NavDropdown>
           </Nav>
