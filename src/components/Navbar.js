@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import '../stylesheets/components/navbar.scss';
 
 export default function NavScroll() {
   return (
-    <Navbar bg="brown" variant="dark" expand="lg">
+    <Navbar className="brown" fixed="top" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">Stanford</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

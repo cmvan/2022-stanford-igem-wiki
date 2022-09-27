@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 function Template({ title, children }) {
   return (
     <Container fluid className="p-0">
-      <Helmet>
+      <Helmet> {/* UPDATE HELMET TO react-helmet-async */ }
         <title>{title} | Stanford - iGEM 2022</title>
       </Helmet>
       <Navbar />
