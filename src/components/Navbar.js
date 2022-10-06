@@ -9,7 +9,14 @@ export default function NavScroll() {
   return (
     <Navbar className="brown" fixed="top" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand as={Link} to="/">Stanford</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">
+          <img 
+            src="https://static.igem.wiki/teams/4466/wiki/horizontal-logo.png"
+            height="30"
+            className="d-inline-block align-top"
+            alt="MORPH Logo"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse className="justify-content-end" id="navbarScroll">
           <Nav
