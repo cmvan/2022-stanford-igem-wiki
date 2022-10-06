@@ -11,7 +11,7 @@ export default function NavScroll() {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img 
-            src="https://static.igem.wiki/teams/4466/wiki/horizontal-logo.png"
+            src="https://static.igem.wiki/teams/4466/wiki/logos/horizontal-morph-logo.png"
             height="30"
             className="d-inline-block align-top"
             alt="MORPH Logo"
