@@ -17,7 +17,6 @@ import Model from './Model';
 import Notebook from './Notebook';
 import PartCollection from './PartCollection';
 import Parts from './Parts';
-import ProofOfConcept from './ProofOfConcept';
 import Results from './Results';
 import Safety from './Safety';
 import Sustainable from './Sustainable';
@@ -43,7 +42,6 @@ export {
   Notebook,
   PartCollection,
   Parts,
-  ProofOfConcept,
   Results,
   Safety,
   Sustainable,

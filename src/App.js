@@ -20,7 +20,6 @@ function App() {
         <Route path="experiments" element={<Pages.Experiments />} />
         <Route path="implementation" element={<Pages.Implementation />} />
         <Route path="notebook" element={<Pages.Notebook />} />
-        <Route path="proof-of-concept" element={<Pages.ProofOfConcept />} />
         <Route path="part-collection" element={<Pages.PartCollection />} />
         <Route path="parts" element={<Pages.Parts />} />
         <Route path="improve" element={<Pages.Improve />} />

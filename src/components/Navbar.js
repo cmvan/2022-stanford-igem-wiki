@@ -37,7 +37,6 @@ export default function NavScroll() {
               <NavDropdown.Item as={Link} to="/experiments">Experiments</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/implementation">Implementation</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/notebook">Notebook</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/proof-of-concept">Proof of Concept</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/results">Results</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Parts">
