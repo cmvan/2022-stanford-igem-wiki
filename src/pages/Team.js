@@ -21,7 +21,7 @@ export default function Team() {
   return (
     <Template title="Team">
       <h1>Meet the 2022 Stanford iGEM Team Members!</h1>
-      <p>Click on Each Member's Card to Learn More!</p>
+      <p>Click on Each Member Card to Learn More!</p>
       <Row xs={1} md={2} lg={4} className="g-4 team-row">
         {memberBios.map((member, key) => {
           return (
