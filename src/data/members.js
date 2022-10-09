@@ -1,4 +1,4 @@
-export const memberBios = [
+export const membersInfo = [
   {
     id: 0,
     name: "Angel Luna",
@@ -7,7 +7,8 @@ export const memberBios = [
       alt: "Picture of Angel Luna",
     },
     catchphrase: "Angel's Catchphrase",
-    bio: "Angel's Bio"
+    bio: "Angel's Bio",
+    attribution: "Angel's Attribution"
   }, 
   {
     id: 1,
@@ -17,7 +18,8 @@ export const memberBios = [
       alt: "Picture of Caroline Van",
     },
     catchphrase: "Caroline's Catchphrase",
-    bio: "Caroline's Bio"
+    bio: "Caroline's Bio",
+    attribution: "Caroline's Attribution"
   },
   {
     id: 2,
@@ -27,7 +29,8 @@ export const memberBios = [
       alt: "Picture of Claudia Phillips",
     },
     catchphrase: "Claudia's Catchphrase",
-    bio: "Claudia's Bio"
+    bio: "Claudia's Bio",
+    attribution: "Claudia's Attribution"
   },
   {
     id: 3,
@@ -37,7 +40,8 @@ export const memberBios = [
       alt: "Picture of Gurmen Bahia",
     },
     catchphrase: "Gurmen's Catchphrase",
-    bio: "Gurmen's Bio"
+    bio: "Gurmen's Bio",
+    attribution: "Gurmen's Attribution"
   },
   {
     id: 4,
@@ -47,7 +51,8 @@ export const memberBios = [
       alt: "Picture of Liz Schmidt",
     },
     catchphrase: "Liz's Catchphrase",
-    bio: "Liz's Bio"
+    bio: "Liz's Bio",
+    attribution: "Liz's Attribution"
   },
   {
     id: 5,
@@ -57,7 +62,8 @@ export const memberBios = [
       alt: "Picture of Savana Huskins",
     },
     catchphrase: "Savana's Catchphrase",
-    bio: "Savana's Bio"
+    bio: "Savana's Bio",
+    attribution: "Savana's Attribution"
   },
   {
     id: 6,
@@ -67,7 +73,8 @@ export const memberBios = [
       alt: "Picture of Shreya Vailaya",
     },
     catchphrase: "Shreya's Catchphrase",
-    bio: "Shreya's Bio"
+    bio: "Shreya's Bio",
+    attribution: "Shreya's Attribution"
   },
   {
     id: 7,
@@ -77,6 +84,7 @@ export const memberBios = [
       alt: "Picture of Sherlock Langevine",
     },
     catchphrase: "Sherlock's Catchphrase",
-    bio: "Sherlock's Bio"
+    bio: "Sherlock's Bio",
+    attribution: "Sherlock's Attribution"
   }
 ];

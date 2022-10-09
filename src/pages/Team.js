@@ -1,5 +1,5 @@
 import { Card, Col, Modal, Row } from "react-bootstrap";
-import { memberBios } from "../data/members.js"
+import { membersInfo } from "../data/members.js"
 import Template from './Template';
 import { useState } from "react";
 import '../stylesheets/pages/team.scss';
@@ -9,7 +9,7 @@ import '../stylesheets/pages/team.scss';
 
 export default function Team() {
   const initialState = Object.fromEntries(
-    memberBios.map((member) => [member.name, false])
+    membersInfo.map((member) => [member.name, false])
   );
 
   const [modalShow, setModalShow] = useState(initialState)
@@ -23,7 +23,7 @@ export default function Team() {
       <h1>Meet the 2022 Stanford iGEM Team Members!</h1>
       <p>Click on Each Member Card to Learn More!</p>
       <Row xs={1} md={2} lg={4} className="g-4 team-row">
-        {memberBios.map((member, key) => {
+        {membersInfo.map((member, key) => {
           return (
             <Col key={key}>
               <Card onClick={() => {toggleShow(member.name)}} className="team-card">
