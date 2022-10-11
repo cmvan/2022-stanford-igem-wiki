@@ -34,14 +34,14 @@ export default function Parts() {
             <td>BBa_K4466003</td>
             <td>Coding</td>
             <td>FAST-PETase S160C Mutant</td>
-            <td>Claudia Phillips</td>
+            <td>Phillip Kyriakakis</td>
             <td>792 bp</td>
           </tr>
           <tr>
             <td>BBa_K4466004</td>
             <td>Coding</td>
             <td>FAST-PETase H237D Mutant</td>
-            <td>Claudia Phillips</td>
+            <td>Phillip Kyriakakis</td>
             <td>792 bp</td>
           </tr>
           <tr>
