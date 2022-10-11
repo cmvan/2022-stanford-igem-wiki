@@ -20,42 +20,46 @@ export default function Team() {
 
   return (
     <Template title="Team">
-      <h1>Meet the 2022 Stanford iGEM Team Members!</h1>
-      <p>Click on Each Member Card to Learn More!</p>
-      <Row xs={1} md={2} lg={4} className="g-4 team-row">
-        {membersInfo.map((member, key) => {
-          return (
-            <Col key={key}>
-              <Card onClick={() => {toggleShow(member.name)}} className="team-card">
-                <Card.Img variant="top" src={member.img.src} alt={member.img.alt} />
-                <Card.Body>
-                  <Card.Title>{member.name}</Card.Title>
-                  <Card.Text>{member.catchphrase}</Card.Text>
-                </Card.Body>
-              </Card>
-              <Modal
-                show={modalShow[member.name]}
-                onHide={() => toggleShow(member.name)}
-                size="lg"
-                aria-labelledby="contained-modal-title-vcenter"
-                centered
-              >
-                <Modal.Header closeButton>
-                  <Modal.Title id="contained-modal-title-vcenter">
-                    {member.name}
-                  </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                  <Row>
-                    <Col xs={4}><img className="img-fluid" src={member.img.src} alt={member.img.alt}/></Col>
-                    <Col><p>{member.bio}</p></Col>
-                  </Row>
-                </Modal.Body>
-              </Modal>
-            </Col>
-          )
-        })}
-      </Row>
+      <h1 className="text-center">Meet the 2022 Stanford iGEM Team!</h1>
+      <img className="mx-auto d-block group-photo" src="https://static.igem.wiki/teams/4466/wiki/members/group.jpg" height="500px" alt="Stanford iGEM Team"/>
+      <caption className="mx-auto d-block text-center group-photo-caption">2022 Stanford iGEM Team</caption>
+      <div className="member-cards">
+        <h3 className="text-center">Learn More About the Members By Clicking a Card!</h3>
+        <Row xs={1} md={2} lg={4} className="g-4 team-row">
+          {membersInfo.map((member, key) => {
+            return (
+              <Col key={key}>
+                <Card onClick={() => {toggleShow(member.name)}} className="team-card">
+                  <Card.Img variant="top" src={member.img.src} alt={member.img.alt} />
+                  <Card.Body>
+                    <Card.Title>{member.name}</Card.Title>
+                    <Card.Text>{member.catchphrase}</Card.Text>
+                  </Card.Body>
+                </Card>
+                <Modal
+                  show={modalShow[member.name]}
+                  onHide={() => toggleShow(member.name)}
+                  size="lg"
+                  aria-labelledby="contained-modal-title-vcenter"
+                  centered
+                >
+                  <Modal.Header closeButton>
+                    <Modal.Title id="contained-modal-title-vcenter">
+                      {member.name}
+                    </Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <Row>
+                      <Col xs={4}><img className="img-fluid" src={member.img.src} alt={member.img.alt}/></Col>
+                      <Col><p>{member.bio}</p></Col>
+                    </Row>
+                  </Modal.Body>
+                </Modal>
+              </Col>
+            )
+          })}
+        </Row>
+      </div>
     </Template>
       );
     }

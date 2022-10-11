@@ -25,7 +25,7 @@ export const membersInfo = [
     id: 2,
     name: "Claudia Phillips",
     img: {
-      src: "https://static.igem.wiki/teams/4466/wiki/dummy-headshot.jpg",
+      src: "https://static.igem.wiki/teams/4466/wiki/members/claudia-phillips.jpg",
       alt: "Picture of Claudia Phillips",
     },
     catchphrase: "Claudia's Catchphrase",
@@ -36,7 +36,7 @@ export const membersInfo = [
     id: 3,
     name: "Gurmenjit Bahia",
     img: {
-      src: "https://static.igem.wiki/teams/4466/wiki/dummy-headshot.jpg",
+      src: "https://static.igem.wiki/teams/4466/wiki/members/gurmen-bahia.jpg",
       alt: "Picture of Gurmenjit Bahia",
     },
     catchphrase: "Gurmenjit's Catchphrase",
@@ -47,7 +47,7 @@ export const membersInfo = [
     id: 4,
     name: "Elizabeth Schmidt",
     img: {
-      src: "https://static.igem.wiki/teams/4466/wiki/dummy-headshot.jpg",
+      src: "https://static.igem.wiki/teams/4466/wiki/members/elizabeth-schmidt.jpg",
       alt: "Picture of Elizabeth Schmidt",
     },
     catchphrase: "Liz's Catchphrase",
@@ -69,7 +69,7 @@ export const membersInfo = [
     id: 6,
     name: "Shreya Vailaya",
     img: {
-      src: "https://static.igem.wiki/teams/4466/wiki/dummy-headshot.jpg",
+      src: "https://static.igem.wiki/teams/4466/wiki/members/shreya-vailaya.jpg",
       alt: "Picture of Shreya Vailaya",
     },
     catchphrase: "Shreya's Catchphrase",
@@ -80,7 +80,7 @@ export const membersInfo = [
     id: 7,
     name: "Sherlock Langevine",
     img: {
-      src: "https://static.igem.wiki/teams/4466/wiki/dummy-headshot.jpg",
+      src: "https://static.igem.wiki/teams/4466/wiki/members/sherlock-langevine.jpg",
       alt: "Picture of Sherlock Langevine",
     },
     catchphrase: "Sherlock's Catchphrase",
