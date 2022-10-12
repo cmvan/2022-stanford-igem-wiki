@@ -50,7 +50,7 @@ export default function Attributions() {
       <Row className="attr-row">
         <Col xs={2}>
           <Image 
-            src="https://static.igem.wiki/teams/4466/wiki/dummy-headshot.jpg"
+            src="https://static.igem.wiki/teams/4466/wiki/people/drew-endy.jpeg"
             alt="Picture of Drew Endy"
             fluid roundedCircle
           />

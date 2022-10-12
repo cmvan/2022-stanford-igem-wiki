@@ -29,11 +29,10 @@ export default function Team() {
           {membersInfo.map((member, key) => {
             return (
               <Col key={key}>
-                <Card onClick={() => {toggleShow(member.name)}}>
+                <Card className="student" onClick={() => {toggleShow(member.name)}}>
                   <Card.Img variant="top" src={member.img.src} alt={member.img.alt} />
                   <Card.Body>
                     <Card.Title>{member.name}</Card.Title>
-                    <Card.Text>{member.catchphrase}</Card.Text>
                   </Card.Body>
                 </Card>
                 <Modal
@@ -58,6 +57,30 @@ export default function Team() {
               </Col>
             )
           })}
+        </Row>
+      </Container>
+
+      <h3 className="text-center space-above">Meet Our Advisors!</h3>
+      <Container>
+        <Row>
+          <Col></Col>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src="https://static.igem.wiki/teams/4466/wiki/people/phillip-kyriakakis.png" alt="Picture of Phillip Kyriakakis" />
+            <Card.Body>
+              <Card.Title>Phillip Kyriakakis</Card.Title>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src="https://static.igem.wiki/teams/4466/wiki/people/drew-endy.jpeg" alt="Picture of Drew Endy" />
+            <Card.Body>
+              <Card.Title>Drew Endy</Card.Title>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col></Col>
         </Row>
       </Container>
     </Template>
