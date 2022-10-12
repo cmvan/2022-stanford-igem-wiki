@@ -3,14 +3,26 @@ import Template from './Template';
 export default function Description() {
   return (
     <Template title="Description">
-      <h1>This is the Description Page</h1>
-      <p>IMAGE OF BOTTLES</p>
+      <h1>On Tackling Plastic Pollution</h1>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/description/bottles-in-river.jpg"
+        alt="Plastic Bottles in River"
+        width="300px"
+      />
+      <caption className="d-block mx-auto text-center">“Plastic bottles and garbage on the bank of a river” Source: Old Photo Profile on flickr (https://www.flickr.com/photos/horiavarlan/4290848934) </caption>
 
       <h3>Motivation</h3>
       <p>
        Everywhere we turn, plastic waste seems to surround us. Plastic pollution in oceans, soils, and food leads to harmful microplastic accumulation in the human body [1]. Microplastics have been shown to cause damage to human cells when they travel around the body to our organs and even fetuses [2]. After noticing the accumulation of plastic waste in our lab and reading about the FAST-PETase developed by UT Austin [3] in April of 2022, our team decided to take action and focus our project in the plastic degradation solution space. Since polyethylene terephthalate (PET) plastics account for approximately 12% of global solid waste [4], the choice to focus on PET was clear to us to make a large impact on global pollution. After further literature review and brainstorming, our team decided to develop a PETase optimized for ideal microbial conditions. Most PETases in the literature are designed for use in a cell-free setting with protein purification that must be done in a lab, but we wanted to express it extracellularly in microbes. A microbe strain that hydrolyzes PET would change the game of plastic waste solutions by making the biodegradation of PET portable, scalable, and cheaper than purified enzymes. To achieve this, we built a PETase secreting platform through a continuous directed evolution system called “OrthoRep” [5]. 
       </p>
-      <p>IMAGE DEGRADATION PATHWAY</p>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/description/degradation-pathway.png"
+        alt="PET degradation pathway"
+        width="500px"
+      />
+      <caption className="d-block mx-auto text-center">The 3-enzyme degradation pathway of PET into its monomers.</caption>
 
       <h3>Background</h3>
       <h5>PET-Ase</h5>
@@ -18,7 +30,14 @@ export default function Description() {
         A PETase is a plastic degrading enzyme that can hydrolyze PET into the molecules mono-(2-hydroxyethyl)terephthalic acid (MHET), terephthalic acid (TPA), and ethylene glycol (EG). PET hydrolyzation is a chemical reaction that is carried out in the presence of a catalyst and that depolymerizes the PET into its monomers [6]. The first PETase was discovered in a strain of bacteria called Ideonella sakaiensis 201-F6 which was able to metabolize PET as its energy and carbon source [7]. Two other enzymes, MHETase and TPADO, have since been found to further hydrolyse MHET and TPA into the most basic monomers EG and protocatechuate (PCA) [8] [9]. Using all three enzymes in a cocktail can harness this biological pathway to convert PET plastic waste into safe and useful molecules. PCA is a major metabolite of antioxidant polyphenols found in green tea, and has potential as a cancer therapeutic [10]. EG can be used as antifreeze or processed into non-toxic biocompatible compounds through UV light oxidation [11].
       </p>
 
-      <p>IMAGE OF EVOLUTION</p>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/description/evolution.png"
+        alt="Evolution Diagram"
+        width="500px"
+      />
+      <caption className="d-block mx-auto text-center">DNA sequences acquire mutations over time which lead to changes in gene products.</caption>
+
       <h5>Directed Evolution</h5>
       <p>
         Directed Evolution is a highly effective protein engineering technique that mimics the process of natural evolution using iterative mutagenesis to screen and/or select for desired gene variations [12]. OrthoRep is a continuous directed evolution platform designed at UC Irvine that utilizes an orthogonal DNA replication system with high mutagenicity for high-throughput continuous evolution of user defined genes in vivo in yeast [5]. Refer to our Contributions Page for a thorough description of how OrthoRep and directed evolution works.
@@ -33,24 +52,48 @@ export default function Description() {
       <p>
         During our initial literature review, UT Austin’s FAST PETase paper that was published in April 2022 [3] came to mind as their PETase was revolutionary in the search for PETases that would function in practical scenarios. Most previous PETases require very specific reaction conditions to achieve hydrolytic activity, specifically a pH of 8.0 and temperatures around 50 °C [3]. Their FAST PETase hydrolase was created through a structure based machine learning algorithm which yielded a mutant that was able to most quickly depolymerize untreated, amorphous portions of plastic in a larger range of temperatures and pHs. Despite this incredible breakthrough, there is still progress to be made before we reach a PETase that would be scalable and efficient enough for recycling purposes. Through our project Mutation-Optimized Reactor for PET Hydrolysis (MORPH), we hope to continue the progression of creating an efficient PETase that can function in microbes to biodegrade PET waste worldwide. Our project development goal is to further evolve FAST-PETase using OrthoRep in mutating yeast cells, by selecting for greater efficiency at conditions which the microbes prefer. Yeast grow optimally at temperatures and pHs lower than those at which FAST-PETase is most active. Our system will iteratively select for PETase mutants with improved PET hydrolytic activity at 30 °C and pH 6.8, thereby bringing the enzyme up to speed for our desired application in microbial culture conditions.
       </p>
-      <p>OPTIMAL YEAST GROWING IMAGE</p>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/description/optimal-yeast-growth-conditions.png"
+        alt="Optimal Yeast Growing Conditions Cartoon"
+        width="700px"
+      />
+      <caption className="d-block mx-auto text-center">Optimal yeast growing conditions</caption>
 
       <h3>Project Design</h3>
       <h5>Inducing Mutations</h5>
       <p>
         Our project used a strain of Saccharomyces cerevisiae that contains the molecular machinery needed for OrthoRep. The OrthoRep directed evolution system only works in S. cerevisiae, and we codon-optimized our genes for this species. In these cells, the p1 OrthoRep plasmid is the target for a highly error-prone DNA polymerase, which causes mutations and subsequent evolution of any genes encoded on p1. Thus, we wanted to integrate the FAST-PETase gene into this plasmid. We also included the α-factor secretion signal in front of this gene so the enzyme would be expressed extracellularly. When transcribed together, the enzyme is expressed and secreted into the media, where it can degrade PET molecules into its monomers. This is important because most plastic waste products are too large to diffuse into the cell, and the enzyme needs to come into contact with the plastic for degradation to occur. We integrated a cassette with these two sequences into p1 to begin creating genetic variants of FAST-PETase.
       </p>
-      <p>MOLECULAR DESIGN IMAGE</p>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/description/molecular-design.png"
+        alt="Molecular Design"
+        width="600px"
+      />
+      <caption className="d-block mx-auto text-center">Molecular Design</caption>
       
       <h5>Mutant Screening</h5>
       <p>
         In one culture of our OrthoRep yeast, each cell may carry a different mutated FAST-PETase gene. We needed a high-throughput screening method to select for yeast that had evolved more effective PETases. We designed a method that works with a 96 well plate thus allowing for 96 individual cultures that could each branch into a unique evolutionary path. The final design for our screening device has three layers: on top, a gasket into which OrthoRep yeast culture samples are pipetted. On the bottom, a 96-well plate. A thin film of PET plastic is sandwiched between the gasket and the plate. The gasket keeps cultures separate and in place atop the PET film. Read more about this method on our Engineering Success page.
       </p>
-      <p>GASKET WELL IMAGE</p>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/description/gasket-well.png"
+        alt="Gasket Well"
+        width="600px"
+      />
+      <caption className="d-block mx-auto text-center">Gasket Well Diagram</caption>
       <p>
         For a yeast strain to be selected, it must successfully break down the PET film and drop down into the well. The OD600 of the wells in the plate can be measured over time using a plate reader or Nanodrop device, allowing a researcher to directly observe the rate at which different yeast strains break through the film. The first mini culture to break through carries the most active enzymes, so it is then grown up into a larger culture, and again divided into another 96 well gasket screening.This iterative screening process places selective pressure on enzymes to become more and more efficient at hydrolyzing PET under yeast growing conditions.
       </p>
-      <p>ENZYME MUTANT PNG</p>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/description/enzyme-mutants.png"
+        alt="Eznyme Mutants"
+        width="700px"
+      />
+      <caption className="d-block mx-auto text-center">Enzyme Mutants</caption>
 
       <h5>Optimized Enzyme</h5>
       <p>
@@ -61,7 +104,14 @@ export default function Description() {
       <p>
         One of our goal metrics is to be able to degrade a plastic water bottle in a culture of yeast cells expressing our optimized enzyme. Once achieved, we want to scale it up into a bioreactor that can degrade real PET waste. Read more about this on our Proposed Implementation page.
       </p>
-      <p>BIOREACTOR SOLVES POLLTUION IMAGE</p>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/description/bioreactor-solves-pollution.png"
+        alt="Bioreactor Solves Pollution"
+        width="500px"
+      />
+      <caption className="d-block mx-auto text-center">Bioreactor Solves Pollution</caption>
+      
 
       <h4>References</h4>
       <ol className="references">
