@@ -41,7 +41,7 @@ export const membersInfo = [
     },
     catchphrase: "Gurmenjit's Catchphrase",
     bio: "Gurmenjit is a junior studying Biology with a concentration in biochemistry/biophysics from Modesto, CA. She particularly enjoys research revolving around genetic editing technology and healthcare disparities. Additionally, she is involved with the Stanford Premedical Association Health Policy Committee, undergraduate senate, and a group advocating for First-generation and/or low-income students known as FLIP. She aspires to become an Orthopedic surgeon and go into global surgery, while continuing to complete research. Aside from her academics, she loves nature, gardening, and long walks.",
-    attribution: ""
+    attribution: "Gurmenjit worked on leading the team in lab work, which included cloning to optimize PETase and cloning of rationally designed Petase for the ortho rep system. Additionally, Gurmenjit was involved in developing the gasket prototypes. She worked on the development of sensors for screening successful PETase degradation of PET. Beyond facilitating meetings with other iGEM teams, she helped run the education program—from designing the promotional graphic to sending weekly logistical information and homework feedback. During the education program, she lectured about model organisms with the Yale iGEM team, served as a panelist, and facilitated the speaker series. Lastly, she assisted in the registration of parts into the iGEM database. "
   },
   {
     id: 4,

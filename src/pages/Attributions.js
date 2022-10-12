@@ -34,7 +34,7 @@ export default function Attributions() {
       <Row className="attr-row">
         <Col xs={2}>
           <Image 
-            src="https://static.igem.wiki/teams/4466/wiki/dummy-headshot.jpg" 
+            src="https://static.igem.wiki/teams/4466/wiki/people/phillip-kyriakakis.png" 
             alt="Picture of Phil Kyriakakis" 
             fluid roundedCircle
           />
@@ -118,9 +118,9 @@ export default function Attributions() {
           and friendships formed during our cleanup session of the Arakawa River.
         </li>
         <li>
-          <strong>The Stanford Program for Inspiring the Next Generation of Women in Physics</strong> 
-          was a useful resource that we drew inspiration from for the lecture content in our high 
-          school education program.
+          <strong>The Stanford Program for Inspiring the Next Generation of Women in Physics</strong> was 
+          a useful resource that we drew inspiration from for the lecture content in our high school 
+          education program.
         </li>
       </ul>
       </Container>
@@ -129,7 +129,8 @@ export default function Attributions() {
       <h2>Sponsors</h2>
       <ul>
         <li>
-          <strong>Biological Interdisciplinary Open Maker Environment (BIOME)</strong> has provided 
+          <strong>Biological Interdisciplinary Open Maker Environment (BIOME)</strong> provided us
+          with academic and financial support for our project.
         </li>
         <li>
           <strong>Stanford Bioengineering</strong> provided us with funding, lab space, community 
@@ -140,9 +141,10 @@ export default function Attributions() {
           financially supported us after we applied for the iGEM Impact Grant.
         </li>
         <li>
-          <strong>Integrated DNA Technologies</strong> gave us the necessary biological tools and 
-          resources required to complete our wet lab protocols and collect experimental data through
-          their broader sponsorship of this year's iGEM competition.
+          <strong>Integrated DNA Technologies</strong> and <strong>Beckman Coulter</strong> have 
+          given us the necessary biological tools and resources required to complete our wet lab 
+          protocols and collect experimental data through their broader sponsorship of this year's 
+          iGEM competition.
         </li>
       </ul>
       </Container>
