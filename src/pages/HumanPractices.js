@@ -1,4 +1,4 @@
-import Accordion from 'react-bootstrap/Accordion'
+import { Accordion, Col, Container, Row } from 'react-bootstrap'
 import Template from './Template';
 
 export default function HumanPractices() {
@@ -11,6 +11,29 @@ export default function HumanPractices() {
       </p>
 
       <h3>Tokyo River Friends</h3>
+      <Container>
+        <Row>
+          <Col className="d-flex justify-content-around">
+            <img 
+              src="https://static.igem.wiki/teams/4466/wiki/pages/human-practices/tokyoriverfriends1.png"
+              alt="Collected plastic bottles"
+              width="300px"
+            />
+            <img 
+              src="https://static.igem.wiki/teams/4466/wiki/pages/human-practices/tokyoriverfriends2.jpg"
+              alt="Tokyo River Friends After Trash is Collected"
+              width="475px"
+            />
+            <img 
+              src="https://static.igem.wiki/teams/4466/wiki/pages/human-practices/tokyoriverfriends3.jpg"
+              alt="Tokyo River Friends Collecting Trash"
+              width="475px"
+            />
+          </Col>
+        </Row>
+        <caption className="d-block mx-auto text-center">Tokyo River Friends Collecting Plastic Bottles </caption>
+      </Container>
+      
       <p>
         We felt it would be valuable to get a first-hand perspective of the plastic pollution crisis.  Over the summer, one of the international students in our team joined a weekly coastal cleanup session in Japan with an organization called Tokyo River Friends. There were 9 other volunteers alongside the organization’s founder, James Gibbs. Together, 71 trash bags were collected, of which 22 bags consisted of PET bottles. According to Mr. Gibbs, after collection, the trash gets sent off to the Edogawa Japan Ward for burning and recycling purposes.
       </p>
@@ -53,7 +76,7 @@ export default function HumanPractices() {
         </Accordion.Item>
       </Accordion>
 
-      <h3>Katherine Huded </h3>
+      <h3>Katherine Huded</h3>
       <p>
         Katherine Huded is the VP of Circular Ventures at The Recycling Partnership, an organization that partners with companies to advance circularity, transform underperforming recycling programs, and meet sustainability goals. She is well-versed on residential recycling and the work still needed to improve the U.S. recycling system.
       </p>
@@ -140,6 +163,13 @@ export default function HumanPractices() {
       </Accordion>
 
       <h3>Dr. Drew Endy</h3>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/human-practices/photowithdrewendy.png"
+        alt="Discussing Human Practices with Drew Endy"
+        width="600px"
+      />
+      <caption className="d-block mx-auto text-center">Discussing Human Practices with Drew Endy via Zoom</caption>
       <p>
         Dr. Drew Endy is a synthetic biology expert, a founder of the iGEM competition, and an associate professor of the Bioengineering department at Stanford University.
       </p>
@@ -159,6 +189,13 @@ export default function HumanPractices() {
       </Accordion>
 
       <h3>Tabeling Session in White Plaza</h3>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/human-practices/tabling-session.jpg"
+        alt="Tabling Session Flyer"
+        width="600px"
+      />
+      <caption className="d-block mx-auto text-center">Flyer for Tabling Session</caption>
       <p>
         At the tabeling session, we surveyed campus students and sought input on our idea for a yeast bioreactor to degrade PET plastics. We also utilized the tabeling opportunity to raise awareness about plastic pollution and provide background information about iGEM and our project.
       </p>
