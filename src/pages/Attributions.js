@@ -15,7 +15,7 @@ export default function Attributions() {
         bottle at a time.
       </p>
 
-      <Container className="attr-container">
+      <Container fluid className="attr-container">
         <h2>Team Members</h2>
         {membersInfo.map((member, key) => {
             return (
@@ -29,7 +29,7 @@ export default function Attributions() {
         })}
       </Container>
 
-      <Container className="attr-container">
+      <Container fluid className="attr-container">
       <h2>Advisors</h2>
       <Row className="attr-row">
         <Col xs={2}>
@@ -65,7 +65,7 @@ export default function Attributions() {
       </Row>
       </Container>
       
-      <Container className="attr-container">
+      <Container fluid className="attr-container">
       <h2>External Parties</h2>
       <ul>
         <li>
@@ -92,7 +92,7 @@ export default function Attributions() {
       </ul>
       </Container>
 
-      <Container className="attr-container">
+      <Container fluid className="attr-container">
       <h2>Education and Human Practices</h2>
       <ul>
         <li>
@@ -125,7 +125,7 @@ export default function Attributions() {
       </ul>
       </Container>
 
-      <Container className="attr-container">
+      <Container fluid className="attr-container">
       <h2>Sponsors</h2>
       <ul>
         <li>
