@@ -188,7 +188,7 @@ export default function HumanPractices() {
         </Accordion.Item>
       </Accordion>
 
-      <h3>Tabeling Session in White Plaza</h3>
+      <h3>Tabling Session in White Plaza</h3>
       <img 
         className="d-block mx-auto"
         src="https://static.igem.wiki/teams/4466/wiki/pages/human-practices/tabling-session.jpg"
@@ -197,7 +197,7 @@ export default function HumanPractices() {
       />
       <caption className="d-block mx-auto text-center">Flyer for Tabling Session</caption>
       <p>
-        At the tabeling session, we surveyed campus students and sought input on our idea for a yeast bioreactor to degrade PET plastics. We also utilized the tabeling opportunity to raise awareness about plastic pollution and provide background information about iGEM and our project.
+        At the tabling session, we surveyed campus students and sought input on our idea for a yeast bioreactor to degrade PET plastics. We also utilized the tabling opportunity to raise awareness about plastic pollution and provide background information about iGEM and our project.
       </p>
       <Accordion>
         <Accordion.Item eventKey="0">
