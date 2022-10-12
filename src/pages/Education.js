@@ -45,13 +45,19 @@ export default function Education() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>8/29 Proteins Lecture Slides</Accordion.Header>
+          <Accordion.Header>9/05 Model Organisms Lecture Slides</Accordion.Header>
+          <Accordion.Body>
+            <iframe title="9/05 Model Organisms Lecture Slides" width="100%" height="620" src="https://static.igem.wiki/teams/4466/wiki/pages/education/09-05-22-model-organisms.pdf"></iframe>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="2">
+          <Accordion.Header>9/12 Plasmids and DNA Design Lecture Slides</Accordion.Header>
           <Accordion.Body>
             <iframe title="9/12 Plasmids and DNA Design Lecture Slides" width="100%" height="620" src="https://static.igem.wiki/teams/4466/wiki/pages/education/09-12-22-plasmids-and-dna-design-lecture.pdf"></iframe>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="2">
-          <Accordion.Header>8/29 Proteins Lecture Slides</Accordion.Header>
+        <Accordion.Item eventKey="3">
+          <Accordion.Header>9/19 Computataional Methods in Synthetic Biology Lecture Slides</Accordion.Header>
           <Accordion.Body>
             <iframe title="9/19 Computataional Methods in Synthetic Biology Lecture Slides" width="100%" height="620" src="https://static.igem.wiki/teams/4466/wiki/pages/education/09-19-22-computational-methods-in-synthetic-biology.pdf"></iframe>
           </Accordion.Body>
