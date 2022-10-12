@@ -54,6 +54,28 @@ export default function Engineering() {
         of our gasket, we ended up adapting our screening methods to improve our solution.
       </p>
 
+      <h1>Applying the Design Cycle</h1>
+      <p>
+      We used the principles of the design cycle to improve the properties of our gaskets over more than twenty prototype iterations. In general, our design pipeline had four repeating steps:
+      </p>
+
+      <h4>Design</h4>
+      <p>
+      Each time we started a new batch of gaskets, we asked ourselves: what variables should we manipulate? We tried a variety of silicone brands, mold shapes, handling methods, and processing steps (such as vacuum degassing, manual agitation, and heating) to improve the gasket quality.
+      </p>
+
+      <h4>Fabrication</h4>
+      <p>
+      While building our gaskets, we tried to be as consistent as possible, regardless of which lab member was carrying out the procedure. We kept detailed notes on our procedures to ensure reproducibility.
+      </p>
+
+      <h4>Testing</h4>
+      <p>During or after the production of each gasket, we evaluated their properties as a function of the materials and steps involved in making them. At certain stages in the process, we created multiple gaskets in parallel to directly compare the effects of different treatments.</p>
+
+      <h4>Learn</h4>
+      <p>With each new gasket we made, we considered the parts of our process that worked, and came up with alternative approaches where necessary. Sometimes, when we were unsure why a component failed, we proceeded with literature research or follow-up experiments. Reflecting on our results led us into the design step for the next iteration of the cycle.</p>
+
+
       <h1>Engineering the Gasket</h1>
       <h2>Choice in Materials</h2>
       <p>
@@ -150,6 +172,16 @@ export default function Engineering() {
         </Row>
       </Container>
       <p>We were unfortunately unable to make the R PRO 30 gaskets thin enough to fit into a plate reader. However, the cell densities in the 96-well plate can be measured manually via Nanodrop, or the PET film can be removed from the system and visually inspected for holes made by PETase enzymes. As such, despite this limitation of our final gasket design, we consider the overall process a success.</p>
+      
+      <h4>References</h4>
+      <ol className="references">
+        <li>
+        Lu H, Diaz DJ, Czarnecki NJ, Zhu C, Kim W, Shroff R, et al. Machine learning-aided engineering of hydrolases for PET depolymerization. Nature. 2022 Apr 27;604(7907):662–7.
+        </li>
+        <li>
+        u/syphilitic_dementia. (2022, March 5). R/dicemaking - platinum silicone cure inhibition with SLA printed dice masters. Reddit. Retrieved October 12, 2022, from https://www.reddit.com/r/DiceMaking/comments/t7h9sd/platinum_silicone_cure_inhibition_with_sla/
+        </li>
+      </ol>
     </Template>
   );
 }
