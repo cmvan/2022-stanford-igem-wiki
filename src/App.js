@@ -7,8 +7,8 @@ import * as Pages from './pages';
 
 function App() {
   return (
-    <Router>
-      <Routes basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
+      <Routes>
         <Route path="/" element={<Pages.Home />} />
         <Route path="team" element={<Pages.Team />} />
         <Route path="attributions" element={<Pages.Attributions />} />
@@ -20,6 +20,7 @@ function App() {
         <Route path="experiments" element={<Pages.Experiments />} />
         <Route path="implementation" element={<Pages.Implementation />} />
         <Route path="notebook" element={<Pages.Notebook />} />
+        <Route path="results" element={<Pages.Results />} />
         <Route path="part-collection" element={<Pages.PartCollection />} />
         <Route path="parts" element={<Pages.Parts />} />
         <Route path="improve" element={<Pages.Improve />} />
