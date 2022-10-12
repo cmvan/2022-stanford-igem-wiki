@@ -21,7 +21,7 @@ export default function Implementation() {
       <Container>
         <Row>
           <Col sm={9}>
-            <h3>Wastewater Collection</h3>
+            <h3>Waste Collection</h3>
             <p>
               The PET plastic to be degraded by our system could be collected in typical recycling bins, although some post-collection sorting may be necessary to separate PET from other plastics. The waste would not need to be cleaned, but the waste receptacle could contain an internal UV light to sterilize them, reducing microbial competition for the plastic-degrading yeast.
             </p>
