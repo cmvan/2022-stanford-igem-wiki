@@ -125,8 +125,10 @@ export default function Model() {
       <p>
       After obtaining the AlphaFold structures, we used PFam and a part of the 3DPhyloFold code to isolate the homologous domain (DLH) that is shared between PETase and the other proteins, and then conducted automated structural alignments in Pymol across the DLH domains of all 75 proteins to create a structural dissimilarity matrix (DSM). DSMs can be used to create phylogenetic trees, so we used MEGA-X to create a structural tree to match the sequence-based phylogeny.
       </p>
-      <iframe title="Structural Phylogeny" width="100%" height="620" src="https://static.igem.wiki/teams/4466/wiki/pages/model/structural-phylogeny-top75-sheet.pdf"></iframe>
-
+      <iframe title="Structural Phylogeny" width="100%" height="620" src="https://static.igem.wiki/teams/4466/wiki/pages/model/structural-phylogeny-top75.pdf"></iframe>
+      <p>
+      The interesting outcome from the structural phylogeny is the proximity between all of the Throughout the entire structural DSM, the average root-mean-square deviation (RMSD) in position between proteins was ~0.2960 Å, which is smaller than a bond length. The immense structural similarity between the majority of these proteins may speak more the the bias of AlphaFold toward structural rigidity (as previously mentioned). However, a few proteins have changed position in the tree, compared to previously, notably the cutinase precursor A0A0U3MFB6, which is farther from PETase by structure than by sequence. These comparisons may be useful in later PETase design problems, where structure can be more easily taken into account.
+      </p>
     </Template>
   );
 }
