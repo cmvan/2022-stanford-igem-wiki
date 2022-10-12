@@ -42,7 +42,7 @@ export default function Collaborations() {
               alt="ASIJ Poster"
               width="600px"
             />
-            <caption className="d-block mx-auto text-center">Tabling at White Plaza</caption>
+            <caption className="d-block mx-auto text-center">ASIJ Poster</caption>
           </Col>
           <Col>
             <img 
