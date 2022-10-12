@@ -49,7 +49,6 @@ export default function NavScroll() {
             <NavDropdown title="Awards">
               <NavDropdown.Item as={Link} to="/education">Education</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/inclusivity">Inclusivity</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/measurement">Measurement</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/model">Model</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/sustainable">Sustainable</NavDropdown.Item>
             </NavDropdown>

@@ -28,7 +28,6 @@ function App() {
         <Route path="human-practices" element={<Pages.HumanPractices />} />
         <Route path="education" element={<Pages.Education />} />
         <Route path="inclusivity" element={<Pages.Inclusivity />} />
-        <Route path="measurement" element={<Pages.Measurement />} />
         <Route path="model" element={<Pages.Model />} />
         <Route path="team" element={<Pages.Team />} />
         <Route path="sustainable" element={<Pages.Sustainable />} />

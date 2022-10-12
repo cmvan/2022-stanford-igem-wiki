@@ -12,7 +12,6 @@ import HumanPractices from './HumanPractices';
 import Implementation from './Implementation';
 import Improve from './Improve';
 import Inclusivity from './Inclusivity';
-import Measurement from './Measurement';
 import Model from './Model';
 import Notebook from './Notebook';
 import PartCollection from './PartCollection';
@@ -37,7 +36,6 @@ export {
   Implementation,
   Improve,
   Inclusivity,
-  Measurement,
   Model,
   Notebook,
   PartCollection,
