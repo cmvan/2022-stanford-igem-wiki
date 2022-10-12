@@ -12,10 +12,10 @@ export default function Improve() {
         suitable for use in yeast and other well-characterized and scalable biological chassis.
         One of our variants, which mutated a catalytic histidine (residue number 237) to an 
         aspartic acid, was based directly on the work of 
-        <a href="https://2011.igem.org/Team:Washington/Celiacs/Background"> iGEM Washington in 
-        2011 on lowering the functional pH of Kumamolisin-As</a>. The other variant we designed 
-        used a related principle, switching a key residue to a structurally and functionally 
-        similar amino acid with a lower pKa.
+        <a href="https://2011.igem.org/Team:Washington/Celiacs/Background" target="_blank" rel="noreferrer noopener"> 
+        iGEM Washington in 2011 on lowering the functional pH of Kumamolisin-As</a>. The other 
+        variant we designed used a related principle, switching a key residue to a structurally 
+        and functionally similar amino acid with a lower pKa.
       </p>
       <p>
         The PETase enzyme is structurally similar to several cutinase proteins, which catalyze the
