@@ -12,9 +12,13 @@ export default function Inclusivity() {
       <p>
         As a participant of an international competition, we felt it necessary to share our knowledge and contribution in scientific research to the rest of the world. Therefore, when creating our educational aspect of our program, the team emphasized on reaching as many individuals around the world as possible. Moreover, we reached out to many high school programs such as EMERGE, LEDA, and MITES which are formed by a diverse student population. Since members of our team are from different parts of the world such as Japan, Mexico, and Guyana, we were able to reach students far beyond the United States. 
       </p>
-      <p>
-        IMAGE OF MAP
-      </p>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/inclusivity/education-map.jpg"
+        alt="Map on Student Participants"
+        width="600px"
+      />
+      <caption className="d-block mx-auto text-center">Map of Student Participants</caption>
       <p>
         Overall, we had over 40 student participants partaking in our summer session. To ensure the participation of all students, we used zoom to have our sessions recorded for those students with conflicting schedules/different time zones. Our goal was to make the students feel they’re a part of a close-knit community. Therefore we regularly hosted office hours and Q&A sessions where students could ask questions and work together on assignments and overall obtain a better understanding of the concepts.
       </p>
