@@ -1,9 +1,19 @@
+@import '../colors.scss';
+
+h3 {
+  margin-top: 5rem;
+}
+
 .group-photo {
   margin: 1rem 0;
 }
 
+.card {
+  background-color: $morph50;
+}
+
 .member-cards {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .team-row {

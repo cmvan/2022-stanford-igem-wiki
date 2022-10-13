@@ -30,7 +30,7 @@ export default function Team() {
             return (
               <Col key={key}>
                 <Card className="student" onClick={() => {toggleShow(member.name)}}>
-                  <Card.Img variant="top" src={member.img.src} alt={member.img.alt} />
+                  <Card.Img variant="top mt-0" src={member.img.src} alt={member.img.alt} />
                   <Card.Body>
                     <Card.Title>{member.name}</Card.Title>
                   </Card.Body>
@@ -60,13 +60,13 @@ export default function Team() {
         </Row>
       </Container>
 
-      <h3 className="text-center space-above">Meet Our Advisors!</h3>
-      <Container>
+      <h3 className="text-center">Meet Our Advisors!</h3>
+      <Container className="member-cards">
         <Row>
           <Col></Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src="https://static.igem.wiki/teams/4466/wiki/people/phillip-kyriakakis.png" alt="Picture of Phillip Kyriakakis" />
+            <Card.Img variant="top mt-0" src="https://static.igem.wiki/teams/4466/wiki/people/phillip-kyriakakis.png" alt="Picture of Phillip Kyriakakis" />
             <Card.Body>
               <Card.Title>Phillip Kyriakakis</Card.Title>
             </Card.Body>
@@ -74,7 +74,7 @@ export default function Team() {
           </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src="https://static.igem.wiki/teams/4466/wiki/people/drew-endy.jpeg" alt="Picture of Drew Endy" />
+            <Card.Img variant="top mt-0" src="https://static.igem.wiki/teams/4466/wiki/people/drew-endy.jpeg" alt="Picture of Drew Endy" />
             <Card.Body>
               <Card.Title>Drew Endy</Card.Title>
             </Card.Body>
