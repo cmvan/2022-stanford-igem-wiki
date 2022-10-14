@@ -132,6 +132,24 @@ export default function Model() {
       <p>
       In comparison to the sequence-based tree, few proteins have significantly changed their positions relative to PETase, which may suggest that amino acid sequences that do not resemble that of PETase are unlikely to converge to a similar structure. This makes our directed evolution project, which even more interesting. Going forward, a more advanced quantitative comparison of the DSMs for the sequence and structural phylogenies could reveal any outliers between the sequence and structural alignments. If the proteins in the phylogenies have properties we want to emulate in PETase, then these comparisons may guide us toward more unconventional and informed rational designs in the future.
       </p>
+      <h4>References</h4>
+      <ol className="references">
+        <li>
+        Michaelis-Menten Kinetics and Briggs-Haldane Kinetics [Internet]. [cited 2022 Oct 14]. Available from: https://depts.washington.edu/wmatkins/kinetics/michaelis-menten.html
+        </li>
+        <li>
+        Han X, Liu W, Huang J-W, Ma J, Zheng Y, Ko T-P, et al. Structural insight into catalytic mechanism of PET hydrolase. Nat Commun. 2017 Dec 13;8(1):2106.
+        </li>
+        <li>
+        Anfinsen CB, Haber E, Sela M, White FH. The kinetics of formation of native ribonuclease during oxidation of the reduced polypeptide chain. Proc Natl Acad Sci USA. 1961 Sep 15;47:1309–14.
+        </li>
+        <li>
+        Sun YJ, Velez G, Parsons DE, Li K, Ortiz ME, Sharma S, et al. Structure-based phylogeny identifies avoralstat as a TMPRSS2 inhibitor that prevents SARS-CoV-2 infection in mice. J Clin Invest. 2021 May 17;131(10).
+        </li>
+        <li>
+        Sagong H-Y, Son HF, Seo H, Hong H, Lee D, Kim K-J. Implications for the PET decomposition mechanism through similarity and dissimilarity between PETases from Rhizobacter gummiphilus and Ideonella sakaiensis. J Hazard Mater. 2021 Aug 15;416:126075.
+        </li>
+      </ol>
     </Template>
   );
 }
