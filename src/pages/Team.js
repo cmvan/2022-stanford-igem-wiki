@@ -24,7 +24,7 @@ export default function Team() {
       <img className="mx-auto d-block group-photo" src="https://static.igem.wiki/teams/4466/wiki/members/group.jpg" height="500px" alt="Stanford iGEM Team"/>
       <caption className="mx-auto d-block text-center group-photo-caption">2022 Stanford iGEM Team</caption>
       <Container className="member-cards">
-        <h3 className="text-center">Learn More About the Members Here!</h3>
+        <h3 className="text-center team-header">Learn More About the Members Here!</h3>
         <Row xs={1} md={2} lg={4} className="g-4 team-row">
           {membersInfo.map((member, key) => {
             return (
@@ -60,7 +60,7 @@ export default function Team() {
         </Row>
       </Container>
 
-      <h3 className="text-center">Meet Our Advisors!</h3>
+      <h3 className="text-center team-header">Meet Our Advisors!</h3>
       <Container className="member-cards">
         <Row>
           <Col></Col>
