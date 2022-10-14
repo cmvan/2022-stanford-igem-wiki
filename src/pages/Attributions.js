@@ -109,8 +109,12 @@ export default function Attributions() {
           tips to engineer the OrthoRep system into yeast.
         </li>
         <li>
-          <strong>Dr. Katherine Huded</strong> provided input on the drawbacks and limitations of 
-          plastic recycling facilities and supported our human practices initiatives.
+          <strong>Katherine Huded</strong> provided input on the drawbacks and limitations of 
+          plastic recycling infrastructure and supported our human practices initiatives.
+        </li>
+        <li>
+          <strong>Sebastian Cocioba</strong> suggested we incorporate an enzyme into our PET 
+          degradation system to degrade the TPA byproduct into a more biosafe compound.
         </li>
         <li>
           <strong>Tokyo River Friends</strong> continues to inspire and humble us by their work to 
@@ -129,8 +133,8 @@ export default function Attributions() {
       <h2>Sponsors</h2>
       <ul>
         <li>
-          <strong>Biological Interdisciplinary Open Maker Environment (BIOME)</strong> provided us
-          with academic and financial support for our project.
+          <strong>Biological Interdisciplinary Open Maker Environment (BIOME)</strong> has given us \
+          academic and financial support for our project.
         </li>
         <li>
           <strong>Stanford Bioengineering</strong> provided us with funding, lab space, community 
@@ -145,6 +149,10 @@ export default function Attributions() {
           given us the necessary biological tools and resources required to complete our wet lab 
           protocols and collect experimental data through their broader sponsorship of this year's 
           iGEM competition.
+        </li>
+        <li>
+          <strong>Stanford University School of Engineering</strong> provided funding support to 
+          cover travel expenses and project resources.
         </li>
       </ul>
       </Container>
