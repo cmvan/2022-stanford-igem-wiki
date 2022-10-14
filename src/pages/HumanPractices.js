@@ -9,7 +9,7 @@ export default function HumanPractices() {
       <p>
         MORPH’s human practice initiative played a crucial role in shaping the scope of our project, its social, economical, and environmental implications, and opportunities for further development. It involved a survey, a river cleanup activity, and interviews with several experts in the scientific community to gather valuable insights, which enabled our team to select plastic pollution as the project theme and guided our approach to the development and application of a potential solution to address the problem. Let us take you on our journey to understand how our engagements with various stakeholders MORPHed our project design and goals over time.
       </p>
-
+      
       <h3>Tokyo River Friends</h3>
       <Container>
         <Row>
@@ -35,7 +35,7 @@ export default function HumanPractices() {
       </Container>
       
       <p>
-        We felt it would be valuable to get a first-hand perspective of the plastic pollution crisis.  Over the summer, one of the international students in our team joined a weekly coastal cleanup session in Japan with an organization called Tokyo River Friends. There were 9 other volunteers alongside the organization’s founder, James Gibbs. Together, 71 trash bags were collected, of which 22 bags consisted of PET bottles. According to Mr. Gibbs, after collection, the trash gets sent off to the Edogawa Japan Ward for burning and recycling purposes.
+        We felt it would be valuable to get a first-hand perspective of the plastic pollution crisis.  Over the summer, one of the international students in our team joined a weekly coastal cleanup session in Japan with an organization called Tokyo River Friends. There were 9 other volunteers alongside the organization’s founder, James Gibbs. Together, 71 trash bags were collected, of which 22 bags consisted of PET bottles. According to Mr. Gibbs, after collection, the trash gets sent off to the Edogawa Japan Ward for burning and recycling purposes. More information can be found on Instagram @tokyoriverfriends.
       </p>
       <Accordion>
         <Accordion.Item eventKey="0">
@@ -54,20 +54,20 @@ export default function HumanPractices() {
 
       <h3>Conferences with ReCollegy, Plastic Recycling Open House, and CalRecycle</h3>
       <p>
-        The initial idea for the project was triggered by our participation in three conferences on plastic recycling—ReCollegy, Plastics Recycling Open House, and CalRecycle. Through interactions with various company representatives at these events, we gathered information on the current state of recycling facilities that has helped inform us on what project application context PET degrading yeast would have the most positive impact.
+        We attended three conferences on plastic recycling—ReCollegy, Plastics Recycling Open House, and CalRecycle. Through interactions with various company representatives at these events, we gathered information on the current state of recycling facilities that has helped inform us on what project application context PET degrading yeast would have the most positive impact.
       </p>
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Input</Accordion.Header>
           <Accordion.Body>
-            From these conferences, we learned a lot about the limitations of recycling. For example, not many people know that only 9% of plastics has ever been recycled around the world. one reason is that it is extremely difficult for a plastic bottle to be completely recycled into another plastic bottle, since it is not a circular system. According to the ReCollegy session, while a metal can can be recycled into a metal can over and over again, a plastic bottle can only be downcycled into lower quality grade plastic products like fleece fillers or plastic bricks. China used to import most of the world’s discarded plastics, however in 2017 China enforced a plastic import ban which has significantly impacted the global waste industry and forced countries like the US to try to better manage their own plastic waste. One initiative in the Bay Area, CA is to gradually decrease the size of landfill bins so people are motivated to sort their waste into compost and recycling bins. 
+            From these conferences, we learned a lot about the limitations of recycling. For example, not many people know that only 9% of plastics has ever been recycled around the world. one reason is that it is extremely difficult for a plastic bottle to be completely recycled into another plastic bottle, since it is not a circular system. According to the ReCollegy session, while a metal canister can be recycled into a metal canister over and over again, a plastic bottle can only be downcycled into lower quality grade plastic product like fleece fillers or plastic bricks. In 2017, China, which used to import most of the world’s discarded plastics, enforced a plastic import ban. This has significantly impacted the global waste industry and forced countries like the US to try to better manage their own plastic waste.  One initiative in the Bay Area, California is to gradually decrease the size of landfill bins so people are motivated to sort their waste into compost and recycling bins. 
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>Integration</Accordion.Header>
           <Accordion.Body>
             <p>
-              Initially, we were exploring a broad array of project applications in plastic waste management. For instance, PET-degrading yeast could act as an agent for degrading plastic particles in soil, be taken as a probiotic supplement to clear microplastics from the gastrointestinal tract, or break down plastic at an industrial scale in bioreactors. Through our conversations with recycling companies, we learned about the limitations of recycling initiatives and began to discuss how our project could potentially fill the gaps. The information we gathered from the conferences significantly helped narrow our project application. By fully degrading PET waste into non-toxic monomers, we can begin to reduce the amount of plastic that is accumulating in the world as opposed to downcycling it. With this goal in mind, we decided to move forward with project MORPH by focusing on mass-degradation of PET plastic waste. Based on all of the input we believe a bioreactor was the solution, but we needed to figure out where it would be the most useful— in recycling plants, in personal homes, or on a community/municipal scale.
+              Initially, we were exploring a broad array of project applications in plastic waste management. For instance, PET-degrading yeast could act as an agent for degrading plastic particles in soil, be taken as a probiotic supplement to clear microplastics from the gastrointestinal tract, or break down plastic at an industrial scale in bioreactors. Through our conversations with recycling companies, we learned about the limitations of recycling initiatives and began to discuss how our project could potentially fill the gaps. The information we gathered from the conferences significantly helped narrow our project application. By fully degrading PET waste into non-toxic monomers, we can begin to reduce the amount of plastic that is accumulating in the world as opposed to downcycling it. With this goal in mind, we decided to move forward with project MORPH by focusing on mass-degradation of PET plastic waste. Based on all of the input, we believe a bioreactor is the solution, but we need to figure out where it should be located—in recycling plants, in personal homes, or on a community/municipal scale—so that it is most impactful.
             </p>
             <p>
               These webinars helped finalize our decision to focus on implementing and placing the bioreactor for municipal waste management with large educational or corporate communities, instead of trying to work with recycling plants to add it to their processing stream. Firstly, we wanted to reduce the amount of transport needed to degrade plastic. Plastic is often shipped to large central waste collection areas, or around the world to different countries and recycling plants depending on the type of plastic. We want to shorten the plastic waste stream in order to reduce fossil fuel emissions from transport and the number of hands it has to go through (where you are likely to lose some to pollution along the way). Local degradation of plastic closer to the site of use is more sustainable. The current system also acts as a black box where people in the U.S get rid of their waste and never think about it again. It would be beneficial to have a bioreactor on display in communities to inspire them with synthetic biology, and also to make people more conscious of where their waste goes. The downsizing landfill bin policy is also a testament to waste policies that tap into the public psyche, thus encouraging us to design a public-facing bioreactor.
@@ -97,25 +97,25 @@ export default function HumanPractices() {
 
       <h3>Public Survey Responses</h3>
       <p>
-        We wanted to gather more insights from the general public on plastic waste and recycling to gauge how educated people are on these topics and understand if there are any misconceptions. To do this, we collaborated with The American School in Japan (ASIJ) iGEM team by promoting our public <a href="https://docs.google.com/forms/d/e/1FAIpQLSdInqTyG_0OXamwgio0OlO-lok9I0oJZ99gVGNv6Ki02FbNAg/viewform" target="_blank" rel="noreferrer noopener">Plastic Waste Survey</a> among people in Japan and the U.S, the two leading countries with the highest plastic waste generation per capita. 
+        We wanted to gather more insights from the general public on plastic waste and recycling to gauge how educated people are on these topics and understand if there are any misconceptions. To do this, we collaborated with The American School in Japan (ASIJ) iGEM team by promoting our public <a href="https://docs.google.com/forms/d/e/1FAIpQLSdInqTyG_0OXamwgio0OlO-lok9I0oJZ99gVGNv6Ki02FbNAg/viewform" target="_blank" rel="noreferrer noopener">“Plastic Waste” Survey</a>  among people in Japan and the U.S, the two leading countries with the highest plastic waste generation per capita.
       </p>
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Input</Accordion.Header>
           <Accordion.Body>
-            The survey responses we received shed insight into what knowledge gaps there are surrounding sorting trash, the recycling process, and current bioengineering solutions that are being implemented. Based on the responses we realized that many view recycling as the solution to global plastic pollution and are not aware of its limitations. In particular, 82% of the survey responses believed that a plastic bottle could be recycled into another entirely new plastic bottle, which we know isn’t possible given the reality that plastic bottles are being downcycled. Additionally, around 55% of respondents estimated that over 25% of plastics in the world end up recycled. The survey responses reinforced what other stakeholders have been saying regarding the lack of education and misinformation surrounding recycling.
+            The 200 survey responses we received shed insight into what knowledge gaps there are surrounding sorting trash, the recycling process, and current bioengineering solutions that are being implemented. Based on the responses we realized that many view recycling as the solution to global plastic pollution and are not aware of its limitations. In particular, 82% of the survey responses believed that a plastic bottle could be recycled into another entirely new plastic bottle, which we know isn’t possible given the reality that plastic bottles are being downcycled. Additionally, around 55% of respondents estimated that over 25% of plastics in the world end up recycled. The survey responses reinforced what other stakeholders have been saying regarding the lack of education and misinformation surrounding recycling.
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>Integration</Accordion.Header>
           <Accordion.Body>
             <p>
-            The survey helped us understand that education and raising awareness will inevitably be a key component for successful implementation of any solution for plastic degradation. For this reason, we believe implementing PET-degrading bioreactors in a university setting would accomplish this component by drawing the attention of the public eye and eliciting meaningful discourse on how to be more conscious of our own waste stream.
+              The survey helped us understand that education and raising awareness will inevitably be a key component for successful implementation of any solution for plastic degradation. For this reason, we believe implementing PET-degrading bioreactors in a university setting would accomplish this component by drawing the attention of the public eye and eliciting meaningful discourse on how to be more conscious of our own waste stream.
             </p>
 
             <h5>Ethical Reasoning</h5>
             <p>
-              Although many people could use better education on pollution and recycling, we want to acknowledge that the responsibility of these problems does not fall on individual citizens. We have thought a lot about the plastic waste stream and who is responsible for it. We originally thought we wanted people to have personal bioreactors in their home for their plastic waste, but realized that it is not accessible and would wrongfully place the responsibility on individuals. Guilting individual citizens for their consumption habits and encouraging them to spend money in the hopes of feeling more sustainable and “green” is a tactic sometimes used by large corporations to avoid accountability for their large role in the climate crisis. In addition, if people individually purchased a bioreactor they might be encouraged to use more plastic bottles in order to feel like they are “getting their money’s worth.” Even though personal bioreactors would encourage education and awareness, they are not practical. Thus, we changed our direction for our proposed implementation to be implemented on a local community scale, either by large corporate or college campuses, where communities could see the bioreactors in action.
+              Although many people could use better education on pollution and recycling, we want to acknowledge that it’s a shared responsibility among citizens, corporations, and municipalities.  We originally felt that we wanted people to have personal bioreactors in their home for their plastic waste, but realized that it is not economical and practical. Guilting individual citizens for their consumption habits and encouraging them to spend money in the hopes of feeling more sustainable and “green” is a tactic sometimes used by large corporations to avoid accountability for their large role in the climate crisis. In addition, if people individually purchased a bioreactor they might be encouraged to use more plastic bottles in order to feel like they are “getting their money’s worth.” Even though personal bioreactors would encourage education and awareness, they are not practical. Thus, we changed our direction for bioreactor implementation from an individual home setting to a local community scale, either by municipality waste management organizations, large corporations, or college campuses, where communities can see the bioreactors in action.
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -144,6 +144,13 @@ export default function HumanPractices() {
       </Accordion>
 
       <h3>Stanford Bio-X Poster Presentation</h3>
+      <img 
+        className="d-block mx-auto"
+        src="https://static.igem.wiki/teams/4466/wiki/pages/communication/biox.jpg"
+        alt="Presenting at Bio-X Symposium"
+        width="600px"
+      />
+      <caption className="d-block mx-auto text-center">From left to right, Shreya, Elizabeth, and Savana presenting at the Stanford Bio-X Symposium</caption>
       <p>
         We sought several opportunities to share our research with our local scientific community and gather feedback on our project. During the summer, we presented a poster detailing our project’s vision and experimental procedures at the annual Stanford Bio-X symposium. Stanford Bio-X is Stanford University’s interdisciplinary biosciences institute.
       </p>
@@ -189,13 +196,29 @@ export default function HumanPractices() {
       </Accordion>
 
       <h3>Tabling Session in White Plaza</h3>
-      <img 
-        className="d-block mx-auto"
-        src="https://static.igem.wiki/teams/4466/wiki/pages/human-practices/tabling-session.jpg"
-        alt="Tabling Session Flyer"
-        width="600px"
-      />
-      <caption className="d-block mx-auto text-center">Flyer for Tabling Session</caption>
+      <Container>
+        <Row>
+          <Col>
+            <img 
+              className="d-block mx-auto"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/human-practices/tabling-session.jpg"
+              alt="Tabling Session Flyer"
+              width="600px"
+            />
+            <caption className="d-block mx-auto text-center">Flyer for Tabling Session</caption>
+          </Col>
+          <Col>
+            <img 
+              className="d-block mx-auto"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/communication/communication-tabling.png"
+              alt="Stanford iGEMers Tabling"
+              width="600px"
+            />
+            <caption className="d-block mx-auto text-center">From left to right, Shreya, Savana, and Angel tabling at White Plaza</caption>
+          </Col>
+        </Row>
+      </Container>
+      
       <p>
         At the tabling session, we surveyed campus students and sought input on our idea for a yeast bioreactor to degrade PET plastics. We also utilized the tabling opportunity to raise awareness about plastic pollution and provide background information about iGEM and our project.
       </p>
@@ -203,7 +226,12 @@ export default function HumanPractices() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>Input</Accordion.Header>
           <Accordion.Body>
-            Some students raised concern about the potential release of engineered microbes into the environment. Other individuals inquired about the toxicity of byproducts from the degradation process and its potential harm to the environment. Setting up a table on campus not only helped increase the visibility and awareness of our research work, but also gave us the opportunity to spontaneously connect with other organizations working towards a similar goal. During our tabeling session, we got the chance to talk to one of the student leads for the All About No Waste organization and learn more about how we could collaborate with them. 
+            <p>
+              Some students raised concern about the potential release of engineered microbes into the environment. Other individuals inquired about the toxicity of byproducts from the degradation process and its potential harm to the environment. 
+            </p>
+            <p>
+              Setting up a table on campus not only helped increase the visibility and awareness of our research work, but also gave us the opportunity to spontaneously connect with other organizations working towards a similar goal. During our tabeling session, we got the chance to talk to one of the student leads for the All About No Waste organization and learn more about how we could collaborate with them. 
+            </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">

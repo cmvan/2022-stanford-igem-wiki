@@ -133,7 +133,7 @@ export default function Attributions() {
       <h2>Sponsors</h2>
       <ul>
         <li>
-          <strong>Biological Interdisciplinary Open Maker Environment (BIOME)</strong> has given us \
+          <strong>Biological Interdisciplinary Open Maker Environment (BIOME)</strong> has given us 
           academic and financial support for our project.
         </li>
         <li>
