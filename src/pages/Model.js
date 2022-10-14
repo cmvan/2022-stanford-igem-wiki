@@ -7,32 +7,33 @@ export default function Model() {
     <Template title="Model">
       <h1>Project Modeling</h1>
       <p>
-      We used two major models as part of our project: a protein model and a set of phylogenies. We have chosen to share our process in great detail to make our work more reproducible, and to point out stumbling blocks that may be relevant to anyone else attempting this type of modeling. We carried out much of this project in web servers, which are accessible to most people with some academic or institutional affiliation.
+        We used two major models as part of our project: a protein model and a set of phylogenies. We have chosen to share our process in great detail to make our work more reproducible, and to point out stumbling blocks that may be relevant to anyone else attempting this type of modeling. We carried out much of this project in web servers, which are accessible to most people with some academic or institutional affiliation.
       </p>
 
       <h2>Protein Modeling and Docking</h2>
       <p>
-      In structural biology, “docking” is a computational process in which a protein is fitted to some other structure (typically a ligand, small molecule, other protein) in accordance with biochemical and mechanical principles. Docking can be used as a tool for drug discovery, for identifying amino acids that are relevant to the binding affinities of a protein, and for estimating the bond energy of a protein-ligand complex. We chose to use docking to qualitatively evaluate the binding affinity of our rational design PETase mutants to PET plastic as a way of validating our designs. 
+        In structural biology, “docking” is a computational process in which a protein is fitted to some other structure (typically a ligand, small molecule, other protein) in accordance with biochemical and mechanical principles. Docking can be used as a tool for drug discovery, for identifying amino acids that are relevant to the binding affinities of a protein, and for estimating the bond energy of a protein-ligand complex. We chose to use docking to qualitatively evaluate the binding affinity of our rational design PETase mutants to PET plastic as a way of validating our designs. 
       </p>
 
       <h3>The Docking Process</h3>
       <h4>Preparing the Foundational Protein Structure File</h4>
       <p>
-      To model our foundational PETase, we started with a solved crystal structure from the Protein Data Bank (PDB). The PDB is a public repository for protein structures that have been discovered experimentally. The PDB has its own filetype, which is designed to store spatial and structural information about proteins and other biomolecules. PDB files can be used to construct 3D models of proteins, like the one shown below.
+        To model our foundational PETase, we started with a solved crystal structure from the Protein Data Bank (PDB). The PDB is a public repository for protein structures that have been discovered experimentally. The PDB has its own filetype, which is designed to store spatial and structural information about proteins and other biomolecules. PDB files can be used to construct 3D models of proteins, like the one shown below.
       </p>
+
       <img 
         className="d-block mx-auto"
         src="https://static.igem.wiki/teams/4466/wiki/pages/model/spinning-protein.gif"
         alt="spinning protein"
         width="600px"
       />
-      <caption className="d=block mx-auto text-center">Spinning Protein</caption>
+      <caption className="d-block mx-auto text-center">Spinning Protein</caption>
 
       <p>
-      Fortunately, there are several high-quality PETase structures available in the PDB. We chose one that modeled FAST-PETase specifically. While the resolution, Ramachandran angles, and clashscores for the model suggested that it was accurate, the protein structure required a few tweaks in preparation for docking. In particular, one amino acid near the active site required repositioning and the file needed to be edited and reformatted.
+        Fortunately, there are several high-quality PETase structures available in the PDB. We chose one that modeled FAST-PETase specifically. While the resolution, Ramachandran angles, and clashscores for the model suggested that it was accurate, the protein structure required a few tweaks in preparation for docking. In particular, one amino acid near the active site required repositioning and the file needed to be edited and reformatted.
       </p>
       <p>
-      Aligning the 7SH6 with a wild-type (WT) PETase structure showed that a key tryptophan residue was not in the binding conformation in the FAST-PETase pdb file, but rather in an inactive conformation (Han et al. 2017). Using the 3-button Editing tool in PyMOL, we altered the conformation of the tryptophan to better match the binding sidechain angles.
+        Aligning the 7SH6 with a wild-type (WT) PETase structure showed that a key tryptophan residue was not in the binding conformation in the FAST-PETase pdb file, but rather in an inactive conformation (Han et al. 2017). Using the 3-button Editing tool in PyMOL, we altered the conformation of the tryptophan to better match the binding sidechain angles.
       </p>
 
       <img 
@@ -51,9 +52,8 @@ export default function Model() {
       <caption className="d-block mx-auto text-center">Tryptophan After</caption>
 
       <p>
-      We initially intended to use HADDOCK as our docking software of choice, as it’s widely available for use through a very user-friendly <a href="https://wenmr.science.uu.nl/haddock2.4/" target="_blank" rel="noreferrer noopener">web server</a>. However, the HADDOCK server is unable to take in precise data about the structures of ligands, and the local version of the software, which allows more parameters to be entered, was not compatible with the technology available to the team while modeling was underway. As a result, we were unable to carry out docking to the extent that we hoped. In the future, we would like to conduct docking experiments between PET and PETase over a range of pH values and plot the resultant dissociation constant estimates.
+        We initially intended to use HADDOCK as our docking software of choice, as it’s widely available for use through a very user-friendly <a href="https://wenmr.science.uu.nl/haddock2.4/" target="_blank" rel="noreferrer noopener">web server</a>. However, the HADDOCK server is unable to take in precise data about the structures of ligands, and the local version of the software, which allows more parameters to be entered, was not compatible with the technology available to the team while modeling was underway. As a result, we were unable to carry out docking to the extent that we hoped. In the future, we would like to conduct docking experiments between PET and PETase over a range of pH values and plot the resultant dissociation constant estimates.
       </p>
-
       <h4>Creating and Validating Mutant Structure Files</h4>
       <p>
       As part of our two-pronged approach to engineering the PETase protein, we used rational design methods to select two point mutations that we predicted would improve the activity of FAST-PETase at low pH levels. More information on the process of creating these mutants can be found on our <Link to="/improvement">Improvement of an Existing Part</Link> page.
@@ -110,7 +110,7 @@ export default function Model() {
 
       <h3>Sequence Phylogeny</h3>
       <p>
-      Sequence phylogenies compare the sequences of DNA or protein molecules to each other in order to guess at the biomolecule’s evolutionary lineage. These can provide useful information about the relationships between different proteins, and even hint at the mechanistic and physical traits of related proteins. To find a set of proteins with some similarity to PETase, we used the HMMER web server, which uses hidden Markov model analysis to thoroughly search the entire tree of life for sequence analogs of the protein of interest. We received over 2,500 Uniprot IDs from HMMER, but cut down our list to the top 74 most similar proteins. We created a multiple sequence alignment in BLAST and used IQ-Tree web server to generate the phylogenetic tree. We let IQ-Tree choose the most effective tree-making method, which was LG+F+I+G4, and ran 1,000 replicates. Using the data from IQ-Tree, we created the phylogenetic data display in MEGA-X. 
+      Sequence phylogenies compare the sequences of DNA or protein molecules to each other in order to guess at the biomolecule’s evolutionary lineage. These can provide useful information about the relationships between different proteins, and even hint at the mechanistic and physical traits of related proteins. To find a set of proteins with some similarity to PETase, we used the <a href="https://www.ebi.ac.uk/Tools/hmmer/" target="_blank" rel="noreferrer noopener">HMMER web server</a>, which uses hidden Markov model analysis to thoroughly search the entire tree of life for sequence analogs of the protein of interest. We received over 2,500 Uniprot IDs from HMMER, but cut down our list to the top 74 most similar proteins. We created a multiple sequence alignment in <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank" rel="noreferrer noopener">BLAST</a> and used IQ-Tree web server to generate the phylogenetic tree. We let IQ-Tree choose the most effective tree-making method, which was LG+F+I+G4, and ran 1,000 replicates. Using the data from IQ-Tree, we created the phylogenetic data display in MEGA-X. 
       </p>
 
       <iframe title="Sequence Phylogeny" width="100%" height="620" src="https://static.igem.wiki/teams/4466/wiki/pages/model/sequence-phylogeny-top75.pdf"></iframe>
@@ -127,7 +127,10 @@ export default function Model() {
       </p>
       <iframe title="Structural Phylogeny" width="100%" height="620" src="https://static.igem.wiki/teams/4466/wiki/pages/model/structural-phylogeny-top75.pdf"></iframe>
       <p>
-      The interesting outcome from the structural phylogeny is the proximity between all of the Throughout the entire structural DSM, the average root-mean-square deviation (RMSD) in position between proteins was ~0.2960 Å, which is smaller than a bond length. The immense structural similarity between the majority of these proteins may speak more the the bias of AlphaFold toward structural rigidity (as previously mentioned). However, a few proteins have changed position in the tree, compared to previously, notably the cutinase precursor A0A0U3MFB6, which is farther from PETase by structure than by sequence. These comparisons may be useful in later PETase design problems, where structure can be more easily taken into account.
+      One interesting outcome from the structural phylogeny is the slightly squished appearance of the phylogenetic tree, especially in the top half. Throughout the entire structural DSM, the average root-mean-square deviation (RMSD) in position between proteins was ~0.2960 Å, which is smaller than a bond length. The immense structural similarity between the majority of these proteins may speak more the the bias of AlphaFold toward structural rigidity (as previously mentioned), than high levels of structural similarity between the proteins. The two experimentally solved PDB files, I. sakaiensis PETase (6eqe) and R. gummiphilus PETase (7dzt) stand out as relatively unique from other proteins in the list. 
+      </p>
+      <p>
+      In comparison to the sequence-based tree, few proteins have significantly changed their positions relative to PETase, which may suggest that amino acid sequences that do not resemble that of PETase are unlikely to converge to a similar structure. This makes our directed evolution project, which even more interesting. Going forward, a more advanced quantitative comparison of the DSMs for the sequence and structural phylogenies could reveal any outliers between the sequence and structural alignments. If the proteins in the phylogenies have properties we want to emulate in PETase, then these comparisons may guide us toward more unconventional and informed rational designs in the future.
       </p>
     </Template>
   );

@@ -156,6 +156,14 @@ export default function Attributions() {
         </li>
       </ul>
       </Container>
+      <Container fluid className="attr-container">
+      <h2>Image Credits</h2>
+      <ul>
+        <li>
+          <strong>Taylor Skaff</strong> photographed the Green Butterfly photo used as the hero image for the wiki pages and made it available on Unsplash.
+        </li>
+      </ul>
+      </Container>
     </Template>
   );
 }

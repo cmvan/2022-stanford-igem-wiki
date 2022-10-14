@@ -173,6 +173,9 @@ export default function Contribution() {
 
       <h2>Other Contributions</h2>
       <h3>AlphaFold Downloader</h3>
+      <p>
+      This summer, the AlphaFold Structure Database released 200 million new computer-generated protein structures, expanding the sample space of all known protein structures twenty-fold. To take advantage of this massive new library of proteins, we developed an automated web scraper that accepts a list of Uniprot IDs and downloads the most recent structural PDB files for each protein in the list from the online AlphaFold database. The program is flexible and light, and can be adjusted to download files from any online database. Its download rate is optimized to reduce 429 request errors from the AlphaFold website. As part of the modeling component of our project, we used the program to download PDB files for over 2,500 Uniprot IDs in a single run. We have released this program in our team’s Software Gitlab for use by any future team or other research group, including an example input list and output data for a large-scale protein download run.
+      </p>
 
       <h3>Legacy</h3>
       <p>
