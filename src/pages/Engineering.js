@@ -44,14 +44,7 @@ export default function Engineering() {
 
       <h1>Design Specifications</h1>
       <p>
-        We entered the initial design process for our gasket with a few key requirements in 
-        mind, and as we went through multiple prototype iterations, it became clearer what 
-        details were most important. Ultimately, we sought to make our gasket <strong>hydrophobic 
-        and impermeable, flexible, biologically inert, autoclavable</strong>, thick enough to be 
-        <strong>able to hold 150 μL of culture fluid above each well</strong> in the plate and 
-        <strong>thin enough for the entire screening device to fit into a plate reader</strong>. 
-        When, during our evaluation process, we were forced to choose between two characteristics 
-        of our gasket, we ended up adapting our screening methods to improve our solution.
+        We entered the initial design process for our gasket with a few key requirements in mind, and as we went through multiple prototype iterations, it became clearer what details were most important. Ultimately, we sought to make our gasket hydrophobic and impermeable, flexible, biologically inert, autoclavable, thick enough to be able to hold 150 μL of culture fluid above each well in the plate and thin enough for the entire screening device to fit into a plate reader. When, during our evaluation process, we were forced to choose between two characteristics of our gasket, we ended up adapting our screening methods to improve our solution.
       </p>
 
       <h1>Applying the Design Cycle</h1>
@@ -66,14 +59,18 @@ export default function Engineering() {
 
       <h4>Fabrication</h4>
       <p>
-      While building our gaskets, we tried to be as consistent as possible, regardless of which lab member was carrying out the procedure. We kept detailed notes on our procedures to ensure reproducibility.
+        While building our gaskets, we tried to be as consistent as possible, regardless of which lab member was carrying out the procedure. We kept detailed notes on our procedures to ensure reproducibility.
       </p>
 
       <h4>Testing</h4>
-      <p>During or after the production of each gasket, we evaluated their properties as a function of the materials and steps involved in making them. At certain stages in the process, we created multiple gaskets in parallel to directly compare the effects of different treatments.</p>
+      <p>
+        During or after the production of each gasket, we evaluated their properties as a function of the materials and steps involved in making them. At certain stages in the process, we created multiple gaskets in parallel to directly compare the effects of different treatments.
+      </p>
 
-      <h4>Learn</h4>
-      <p>With each new gasket we made, we considered the parts of our process that worked, and came up with alternative approaches where necessary. Sometimes, when we were unsure why a component failed, we proceeded with literature research or follow-up experiments. Reflecting on our results led us into the design step for the next iteration of the cycle.</p>
+      <h4>Review</h4>
+      <p>
+        With each new gasket we made, we considered the parts of our process that worked, and came up with alternative approaches where necessary. Sometimes, when we were unsure why a component failed, we proceeded with literature research or follow-up experiments. Reflecting on our results led us into the design step for the next iteration of the cycle.
+      </p>
 
 
       <h1>Engineering the Gasket</h1>
@@ -108,9 +105,8 @@ export default function Engineering() {
       <p>
         Our initial gasket mold made from pieces of lab equipment produced a functional, albeit thin, gasket. However, the gaskets produced by the first few 3D-printed molds all came out largely uncured. They were sticky, messy, and more liquid than solid. 
       </p>
-      <p>Pictures of ruined mold full of uncured silicone</p>
       <p>
-        We weren’t sure what chemical was inhibiting the silicone curing reaction, but after a series of experiments and some research, we found a Reddit thread with some insight into our problem. As it turned out, our 3D printed molds were not fully cured themselves, and the photosensitive resin that had been used to make them contained traces of sulfates that disrupted the polymerization reaction of the silicone. To wash out the sulfates, we incorporated a second cure cycle for our molds, rinsing them in isopropanol and placing them under UV light for six additional hours after they finished their standard wash and cure treatment. The extra exposure to UV made our molds more brittle, so that they often broke while in use making gaskets. However, the loss of mechanical integrity in the molds was worth the vastly improved quality of our gaskets.
+        We weren’t sure what chemical was inhibiting the silicone curing reaction, but after a series of experiments and some research, we found a Reddit thread with some insight into our problem. As it turned out, our 3D printed molds were not fully cured themselves, and the photosensitive resin that had been used to make them contained traces of sulfates that disrupted the polymerization reaction of the silicone [2]. To wash out the sulfates, we incorporated a second cure cycle for our molds, rinsing them in isopropanol and placing them under UV light for six additional hours after they finished their standard wash and cure treatment. The extra exposure to UV made our molds more brittle, so that they often broke while in use making gaskets. However, the loss of mechanical integrity in the molds was worth the vastly improved quality of our gaskets.
       </p>
       <Container>
         <Row>
