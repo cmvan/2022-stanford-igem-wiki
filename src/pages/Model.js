@@ -76,6 +76,14 @@ export default function Model() {
           <Col>
             <img 
               className="d-block mx-auto"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/model/7sh6-rosetta.png"
+              alt="Tryptophan After"
+              width="400px"
+            />
+          </Col>
+          <Col>
+            <img 
+              className="d-block mx-auto"
               src="https://static.igem.wiki/teams/4466/wiki/pages/model/160-rosetta.png"
               alt="Tryptophan After"
               width="400px"
@@ -85,14 +93,6 @@ export default function Model() {
             <img 
               className="d-block mx-auto"
               src="https://static.igem.wiki/teams/4466/wiki/pages/model/237-rosetta.png"
-              alt="Tryptophan After"
-              width="400px"
-            />
-          </Col>
-          <Col>
-            <img 
-              className="d-block mx-auto"
-              src="https://static.igem.wiki/teams/4466/wiki/pages/model/7sh6-rosetta.png"
               alt="Tryptophan After"
               width="400px"
             />
