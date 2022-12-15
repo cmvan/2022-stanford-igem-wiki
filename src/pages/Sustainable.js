@@ -3,7 +3,7 @@ import Template from './Template';
 
 export default function Sustainable() {
   return (
-    <Template title="Sustainable">
+    <Template title="Pursuing Sustainability">
       <h1>Focusing on Sustainability</h1>
         <p>
         Plastics are consuming the Earth and endangering billions upon billions of living organisms all around the world in a plethora of environments. Polyethylene Terephthalate (PET) remains to be particularly menacing as one of the most common forms of plastics destroying the planet. Hence, we sought to address the global release of plastics and microplastic particles into the environment through means of targeting the destruction/ degradation of PET plastics. 
@@ -14,7 +14,7 @@ export default function Sustainable() {
               <img 
                 className="d-block mx-auto"
                 src="https://static.igem.wiki/teams/4466/wiki/pages/sustainable/3-good-health-and-well-being.png"
-                alt="Quality Education SDG"
+                alt="Good Health and Well-Being SDG"
                 width="300px"
               />
             </Col>
@@ -30,7 +30,7 @@ export default function Sustainable() {
               <img 
                 className="d-block mx-auto"
                 src="https://static.igem.wiki/teams/4466/wiki/pages/sustainable/13-climate-action.png"
-                alt="Quality Education SDG"
+                alt="Climate Action SDG"
                 width="300px"
               />
               

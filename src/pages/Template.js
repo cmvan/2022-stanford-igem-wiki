@@ -13,7 +13,10 @@ function Template({ title, children }) {
         <title>{title} | Stanford - iGEM 2022</title>
       </Helmet>
       <Navbar />
-      <Image.Hero src={heroImg} alt="test" />
+      <div class="hero-overlay">
+        <Image.Hero src={heroImg} alt="Butterfly Hero Image" />
+        <text class="hero-text">{title}</text>
+      </div>
       <main>
         {children}
       </main>

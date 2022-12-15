@@ -19,7 +19,7 @@ export default function Team() {
     });
 
   return (
-    <Template title="Team">
+    <Template title="Meet the Team!">
       <h1 className="text-center">Meet the 2022 Stanford iGEM Team!</h1>
       <img className="mx-auto d-block group-photo" src="https://static.igem.wiki/teams/4466/wiki/members/group.jpg" height="500px" alt="Stanford iGEM Team"/>
       <caption className="mx-auto d-block text-center group-photo-caption">2022 Stanford iGEM Team</caption>
