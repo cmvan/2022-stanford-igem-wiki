@@ -1,8 +1,8 @@
+import '../stylesheets/components/footer.scss';
 
 export default function Footer() {
   return (
     <footer>
-      <hr />
       <p className="text-center">
         <small>
           © 2022 - This website content is licensed under a&nbsp;
