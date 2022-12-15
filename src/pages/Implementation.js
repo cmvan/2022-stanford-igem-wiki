@@ -1,5 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import Template from './Template';
+import '../stylesheets/pages/implementation.scss';
 
 export default function Implementation() {
   return (
@@ -18,7 +19,7 @@ export default function Implementation() {
       </p>
 
       <h2>Bioreactor Pipeline</h2>
-      <Container>
+      <Container class="bioreactor-cont">
         <Row>
           <Col sm={9}>
             <h3>Waste Collection</h3>

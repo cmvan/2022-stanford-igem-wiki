@@ -5,12 +5,11 @@ export default function HumanPractices() {
   return (
     <Template title="Human Practices">
       <h1>Integrating Human Practices into Our Research</h1>
-      <h2>Introduction</h2>
       <p>
         MORPH’s human practice initiative played a crucial role in shaping the scope of our project, its social, economical, and environmental implications, and opportunities for further development. It involved a survey, a river cleanup activity, and interviews with several experts in the scientific community to gather valuable insights, which enabled our team to select plastic pollution as the project theme and guided our approach to the development and application of a potential solution to address the problem. Let us take you on our journey to understand how our engagements with various stakeholders MORPHed our project design and goals over time.
       </p>
       
-      <h3>Tokyo River Friends</h3>
+      <h2>Tokyo River Friends</h2>
       <Container>
         <Row>
           <Col className="d-flex justify-content-around">
@@ -52,7 +51,7 @@ export default function HumanPractices() {
         </Accordion.Item>
       </Accordion>
 
-      <h3>Conferences with ReCollegy, Plastic Recycling Open House, and CalRecycle</h3>
+      <h2>Conferences with ReCollegy, Plastic Recycling Open House, and CalRecycle</h2>
       <p>
         We attended three conferences on plastic recycling—ReCollegy, Plastics Recycling Open House, and CalRecycle. Through interactions with various company representatives at these events, we gathered information on the current state of recycling facilities that has helped inform us on what project application context PET degrading yeast would have the most positive impact.
       </p>
@@ -76,7 +75,7 @@ export default function HumanPractices() {
         </Accordion.Item>
       </Accordion>
 
-      <h3>Katherine Huded</h3>
+      <h2>Katherine Huded</h2>
       <p>
         Katherine Huded is the VP of Circular Ventures at The Recycling Partnership, an organization that partners with companies to advance circularity, transform underperforming recycling programs, and meet sustainability goals. She is well-versed on residential recycling and the work still needed to improve the U.S. recycling system.
       </p>
@@ -95,7 +94,7 @@ export default function HumanPractices() {
         </Accordion.Item>
       </Accordion>
 
-      <h3>Public Survey Responses</h3>
+      <h2>Public Survey Responses</h2>
       <p>
         We wanted to gather more insights from the general public on plastic waste and recycling to gauge how educated people are on these topics and understand if there are any misconceptions. To do this, we collaborated with The American School in Japan (ASIJ) iGEM team by promoting our public <a href="https://docs.google.com/forms/d/e/1FAIpQLSdInqTyG_0OXamwgio0OlO-lok9I0oJZ99gVGNv6Ki02FbNAg/viewform" target="_blank" rel="noreferrer noopener">“Plastic Waste” Survey</a>  among people in Japan and the U.S, the two leading countries with the highest plastic waste generation per capita.
       </p>
@@ -124,7 +123,7 @@ export default function HumanPractices() {
         Next, we engaged with the scientific community to delve deeper into the biology of our project and seek technical advice on our experimental methods and project execution.
       </p>
 
-      <h3>Dr. Chang C. Liu</h3>
+      <h2>Dr. Chang C. Liu</h2>
       <p>
         Dr. Chang C. Liu is a Biomedical Engineering Professor at UC Irvine. His lab is well known for pioneering the orthogonal replication (OrthoRep) system.
       </p>
@@ -143,7 +142,7 @@ export default function HumanPractices() {
         </Accordion.Item>
       </Accordion>
 
-      <h3>Stanford Bio-X Poster Presentation</h3>
+      <h2>Stanford Bio-X Poster Presentation</h2>
       <img 
         className="d-block mx-auto"
         src="https://static.igem.wiki/teams/4466/wiki/pages/communication/biox.jpg"
@@ -169,7 +168,7 @@ export default function HumanPractices() {
         </Accordion.Item>
       </Accordion>
 
-      <h3>Dr. Drew Endy</h3>
+      <h2>Dr. Drew Endy</h2>
       <img 
         className="d-block mx-auto"
         src="https://static.igem.wiki/teams/4466/wiki/pages/human-practices/photowithdrewendy.png"
@@ -195,7 +194,7 @@ export default function HumanPractices() {
         </Accordion.Item>
       </Accordion>
 
-      <h3>Tabling Session in White Plaza</h3>
+      <h2>Tabling Session in White Plaza</h2>
       <Container>
         <Row>
           <Col>
@@ -242,7 +241,7 @@ export default function HumanPractices() {
         </Accordion.Item>
       </Accordion>
 
-      <h3>Sebastian Cocioba</h3>
+      <h2>Sebastian Cocioba</h2>
       <p>
         Sebastian Cocioba is a Plant Biotechnology researcher and owner of New York Botanics, LLC, a plant biotech R&D laboratory.
       </p>
@@ -270,7 +269,7 @@ export default function HumanPractices() {
         </Accordion.Item>
       </Accordion>
 
-      <h2>Conclusion</h2>
+      <h1>Conclusion</h1>
       <p>
         Through our engagement with the public, scientific experts, and key stakeholders, we were able MORPH our project to enhance its applicability and render it more responsive to addressing the global scourge of PET plastic pollution.
       </p>

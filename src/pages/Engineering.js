@@ -1,7 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import Template from './Template';
 
-// Accordion Structure? Or Make Image of Engineering Success with Clickable Components
 export default function Engineering() {
   return (
     <Template title="Engineering">
@@ -42,32 +41,32 @@ export default function Engineering() {
         over a wide variety of designs.
       </p>
 
-      <h1>Design Specifications</h1>
+      <h2>Design Specifications</h2>
       <p>
         We entered the initial design process for our gasket with a few key requirements in mind, and as we went through multiple prototype iterations, it became clearer what details were most important. Ultimately, we sought to make our gasket hydrophobic and impermeable, flexible, biologically inert, autoclavable, thick enough to be able to hold 150 μL of culture fluid above each well in the plate and thin enough for the entire screening device to fit into a plate reader. When, during our evaluation process, we were forced to choose between two characteristics of our gasket, we ended up adapting our screening methods to improve our solution.
       </p>
 
-      <h1>Applying the Design Cycle</h1>
+      <h2>Applying the Design Cycle</h2>
       <p>
       We used the principles of the design cycle to improve the properties of our gaskets over more than twenty prototype iterations. In general, our design pipeline had four repeating steps:
       </p>
 
-      <h4>Design</h4>
+      <h2>Design</h2>
       <p>
       Each time we started a new batch of gaskets, we asked ourselves: what variables should we manipulate? We tried a variety of silicone brands, mold shapes, handling methods, and processing steps (such as vacuum degassing, manual agitation, and heating) to improve the gasket quality.
       </p>
 
-      <h4>Fabrication</h4>
+      <h2>Fabrication</h2>
       <p>
         While building our gaskets, we tried to be as consistent as possible, regardless of which lab member was carrying out the procedure. We kept detailed notes on our procedures to ensure reproducibility.
       </p>
 
-      <h4>Testing</h4>
+      <h2>Testing</h2>
       <p>
         During or after the production of each gasket, we evaluated their properties as a function of the materials and steps involved in making them. At certain stages in the process, we created multiple gaskets in parallel to directly compare the effects of different treatments.
       </p>
 
-      <h4>Review</h4>
+      <h2>Review</h2>
       <p>
         With each new gasket we made, we considered the parts of our process that worked, and came up with alternative approaches where necessary. Sometimes, when we were unsure why a component failed, we proceeded with literature research or follow-up experiments. Reflecting on our results led us into the design step for the next iteration of the cycle.
       </p>
@@ -169,7 +168,7 @@ export default function Engineering() {
       </Container>
       <p>We were unfortunately unable to make the R PRO 30 gaskets thin enough to fit into a plate reader. However, the cell densities in the 96-well plate can be measured manually via Nanodrop, or the PET film can be removed from the system and visually inspected for holes made by PETase enzymes. As such, despite this limitation of our final gasket design, we consider the overall process a success.</p>
       
-      <h4>References</h4>
+      <h1>References</h1>
       <ol className="references">
         <li>
         Lu H, Diaz DJ, Czarnecki NJ, Zhu C, Kim W, Shroff R, et al. Machine learning-aided engineering of hydrolases for PET depolymerization. Nature. 2022 Apr 27;604(7907):662–7.

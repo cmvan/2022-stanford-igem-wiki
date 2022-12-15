@@ -12,7 +12,7 @@ export default function Experiments() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>MiniPreps</Accordion.Header>
           <Accordion.Body>
-            <h6>Procedure: </h6>
+            <h2>Procedure: </h2>
             <ol>
               <li>
                 Grow liquid cultures the night before with any particular antibiotic that is required. 
@@ -123,7 +123,7 @@ export default function Experiments() {
         <Accordion.Item eventKey="1">
           <Accordion.Header>Yeast gDNA Extraction</Accordion.Header>
           <Accordion.Body>
-            <h6>Procedure: </h6>
+            <h2>Procedure: </h2>
             <ol>
               <li>
               From an overnight yeast culture, pipette 500ul into a 1.7ml tube with the spin cap. Label.
@@ -186,7 +186,7 @@ export default function Experiments() {
         <Accordion.Item eventKey="2">
           <Accordion.Header>Gel Electrophoresis</Accordion.Header>
           <Accordion.Body>
-            <h6>Procedure: </h6>
+            <h2>Procedure: </h2>
             <ol>
               <li>
               Make 500ml of 1x TBE buffer (50ml of 10x TAE buffer, and add milliq water to bring up to 500mL)
@@ -263,7 +263,7 @@ export default function Experiments() {
         <Accordion.Item eventKey="3">
           <Accordion.Header>Gel Purification</Accordion.Header>
           <Accordion.Body>
-          <h6>Procedure: </h6>
+          <h2>Procedure: </h2>
           <ol>
               <li>
               Weigh gel fragment (write weight on tube), then add 3X volume of gel solubilization/QG buffer (yellow) (6X for ≥1.8% gels) (100mg = 100ul)
@@ -302,7 +302,7 @@ export default function Experiments() {
         <Accordion.Item eventKey="4">
           <Accordion.Header>PCR</Accordion.Header>
           <Accordion.Body>
-            <h6>Procedure: </h6>
+            <h2>Procedure: </h2>
             <ol>
               <li>
               Spin dried-primers down → 30 seconds, Max speed 
@@ -350,7 +350,7 @@ export default function Experiments() {
         <Accordion.Item eventKey="5">
           <Accordion.Header>Gasket Formulation</Accordion.Header>
           <Accordion.Body>
-            <h6>Procedure: </h6>
+            <h2>Procedure: </h2>
             <ol>
               <li>
               Slip the top piece of the 2-piece mold into the bottom piece of the 2-piece mold
