@@ -23,7 +23,7 @@ export default function Attributions() {
                 <Col xs={2}>
                   <Image src={member.img.src} alt={member.img.alt} fluid roundedCircle/>
                 </Col>
-                <Col>{member.attribution}</Col>
+                <Col><p class="member-attr">{member.attribution}</p></Col>
               </Row>
             )
         })}

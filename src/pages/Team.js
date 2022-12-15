@@ -5,7 +5,6 @@ import { useState } from "react";
 import '../stylesheets/pages/team.scss';
 
 // Adapted from https://codesandbox.io/s/hungry-sunset-t865t3
-// Add error handling?
 
 export default function Team() {
   const initialState = Object.fromEntries(
