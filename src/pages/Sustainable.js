@@ -16,6 +16,7 @@ export default function Sustainable() {
                 src="https://static.igem.wiki/teams/4466/wiki/pages/sustainable/3-good-health-and-well-being.png"
                 alt="Good Health and Well-Being SDG"
                 width="300px"
+                height="100%"
               />
             </Col>
             <Col>
@@ -24,6 +25,7 @@ export default function Sustainable() {
                 src="https://static.igem.wiki/teams/4466/wiki/pages/sustainable/4-quality-education.png"
                 alt="Quality Education SDG"
                 width="300px"
+                height="100%"
               />
             </Col>
             <Col>
@@ -32,6 +34,7 @@ export default function Sustainable() {
                 src="https://static.igem.wiki/teams/4466/wiki/pages/sustainable/13-climate-action.png"
                 alt="Climate Action SDG"
                 width="300px"
+                height="100%"
               />
               
             </Col>
@@ -41,9 +44,10 @@ export default function Sustainable() {
                 src="https://static.igem.wiki/teams/4466/wiki/pages/sustainable/15-life-on-land.png"
                 alt="Life On Land SDG"
                 width="300px"
+                height="100%"
               />
             </Col>
-            <caption className="d-block mx-auto text-center">The Sustainable Development Goals that Stanford iGEM strove towards</caption>
+            <caption className="d-block mx-auto text-center space-above">The Sustainable Development Goals that Stanford iGEM strove towards</caption>
           </Row>
         </Container>
         <p>
