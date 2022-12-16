@@ -80,7 +80,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <caption className="d-block mx-auto text-center space-above">Fun Times with 2022 Stanford iGEM: This could be you! </caption>
+      <caption className="d-block mx-auto text-center space-above">Fun Times with Stanford iGEM: This could be you! </caption>
       <a class="button" href='https://stanfordbiome.org/igem.html' target="_blank" rel="noreferrer">Join Stanford iGEM Today!</a>
     </Template>
   );
