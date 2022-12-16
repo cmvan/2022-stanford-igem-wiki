@@ -18,31 +18,62 @@ export default function Home() {
         <Row>
           <Col class="d-flex justify-content-center">
             <img 
+              class="img-responsive mh-80"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/home/caroline-with-gaskets.jpg"
+              alt="Stanford iGEM at Grand Jamboree"
+              width="25%"
+              height="100%"
+            />
+            <img 
+              class="img-responsive"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-in-lab.jpg"
+              alt="Savana and Shreya Purifying DNA"
+              width="25%"
+              height="100%"
+            />
+            <img 
+              class="img-responsive"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-in-office.jpg"
+              alt="Tokyo River Friends Collecting Trash"
+              width="25%"
+              height="100%"
+            />
+            <img 
+              class="img-responsive"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/home/presenting-at-biox.jpg"
+              alt="Tokyo River Friends Collecting Trash"
+              width="25%"
+              height="100%"
+            />
+          </Col> 
+        </Row>
+        <Row>
+          <Col class="d-flex justify-content-center">
+            <img 
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-at-grand-jamboree.jpg"
               alt="Stanford iGEM at Grand Jamboree"
-              width="31%"
-              height="80%"
+              width="33%"
+              height="100%"
             />
             <img 
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-hands.jpg"
-              alt="Stanford iGEM at Grand Jamboree"
-              width="25%"
-              height="80%"
+              alt="Stanford iGEM Teamwork"
+              width="24%"
+              height="100%"
             />
             <img 
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-at-dinner.jpeg"
-              alt="Tokyo River Friends Collecting Trash"
-              width="44%"
-              height="80%"
+              alt="Stanford iGEM at Dinner"
+              width="43%"
+              height="100%"
             />
           </Col>
         </Row>
-        
       </Container>
-      <caption className="d-block mx-auto text-center">Fun Times with 2022 Stanford iGEM: This could be you! </caption>
+      <caption className="d-block mx-auto text-center space-above">Fun Times with 2022 Stanford iGEM: This could be you! </caption>
       <a class="button" href='https://stanfordbiome.org/igem.html' target="_blank" rel="noreferrer">Join Stanford iGEM Today!</a>
     </Template>
   );
