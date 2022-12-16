@@ -22,3 +22,23 @@ $basicPadding: 3em;
 .accordion-body {
   font-size: 17px;
 }
+
+.button {
+  display: flex;
+  padding: 10px 20px;
+  width: 30%;
+  margin: auto;
+  background-color: $morph;
+  border-radius: 12px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: $ocean;
+  color: $sunglow;
+}

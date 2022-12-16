@@ -36,7 +36,6 @@ export default function Sustainable() {
                 width="300px"
                 height="100%"
               />
-              
             </Col>
             <Col>
               <img 
