@@ -8,7 +8,7 @@ export default function Results() {
         Though our project revolved around PETase, it must be mentioned that we included a plethora of components––created through both rational design and directed evolution––in order to truly understand and optimize PETase functionality. Therefore, we obtained results from multiple outcomes. 
       </p>
       
-      <h2>Rationally Designed Mutants</h2>
+      <h1>Rationally Designed Mutants</h1>
       <p>
         We designed two single-residue mutants of FAST PETase that we expected to have heightened activity under acidic conditions compared to the original protein. In order to conduct activity assays on the PETases at a range of pH levels, we needed to develop a plan to purify the protein in large quantities. In some preliminary tests, we showed that our purification procedure would allow us to collect a suitable amount of FAST-PETase and both rational design mutants. The gels below indicate the presence of the PET protein at each step of the purification. Our protein forms bands at the level marked with the red arrow.
       </p>
@@ -20,7 +20,7 @@ export default function Results() {
       />
       <caption className="d-block mx-auto text-center">Gels</caption>
 
-      <h3>Gel Labels</h3>
+      <h2>Gel Labels</h2>
       <ul>
         <li>
         WC = whole-cell (the protein would form a strong band here if it was stuck in the cell membrane)
@@ -42,7 +42,7 @@ export default function Results() {
         Because the thickest and darkest band on each protein gel is in the bead eluate columns, our PETases clearly perform as expected at each stage of the purification process, validating this method as a way to purify large quantities of all of our proteins for further experimentation. The next step in testing our rational designs is growing and purifying the proteins at a larger scale and performing activity assays to study their effectiveness at degrading PET plastic.
       </p>
 
-      <h2>OrthoRep Directed Evolution Mutant</h2>
+      <h1>OrthoRep Directed Evolution Mutant</h1>
       <p>
       We were ultimately able to successfully integrate PETase into the Original Orthorep Yeast, thereby, beginning the process of ortho rep and correspondingly evolution. After completing the process of integration, we completed a gDNA extraction, sequenced our p1 plasmid, and completed our analysis using ApE. The p1 plasmid contains the alpha-factor signal sequence and FAST-PETase genes. Previous literature had indicated that once integrated this plasmid would thus allow for the induction of the othorep evolution process; thereby, our PETase had finally theoretically begun mutating. 
       </p>

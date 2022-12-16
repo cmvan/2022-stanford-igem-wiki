@@ -51,7 +51,7 @@ export default function Implementation() {
           </Col>
         </Row>
       </Container>
-      <h3>More Details</h3>
+      <h2>Further Details</h2>
       <p>
         Our bioreactor design was based on a few existing pieces of waste management infrastructure, namely septic tanks. In septic tanks, solids settle to the bottom of the tank while the above layer of wastewater is drained off the top for further treatment and dispersal [2]. Similarly in our bioreactor, yeast, cell debris, and TPA precipitate will settle to the bottom when the rotor is stopped. The top layer of liquid will be a mixture of media and ethylene glycol as a by-product from the PETase hydrolysis reaction. A valve will open to a pipe positioned above the level of solid debris, allowing just this supernatant to flow through into a secondary container for treatment.
       </p>
@@ -76,7 +76,7 @@ export default function Implementation() {
         We also want to address the presence of terephthalic acid (TPA) precipitate in our bioreactor design. TPA is a mild irritant and is not a compound we want to simply dispose of back into the environment. TPA can also be biodegraded by an enzyme called TPADO into the molecule protocatechuate (PCA) [4]. PCA is not only harmless, but also found in green tea and has potential as a cancer therapeutic [5]. Although it was out of the scope of our summer iGEM work, we plan to eventually incorporate the TPADO and MHETase enzymes into the directed evolution pipeline to optimize them for expression in yeast as well. Then we could express all the components in the full PET degradation pathway, either simultaneously in 1 yeast strain or adjacently in 3 different yeast strains that could form a microbial community in the bioreactor. Our ultimate goal is to make PET fully biodegradable into non-toxic, biocompatible compounds, so that we can start making a dent on the build-up of global plastic pollution.
       </p>
 
-      <h4>References</h4>
+      <h1>References</h1>
       <ol className="references">
         <li>
           U.S. Department of Health and Human Services, Public Health Service. (November 2010). Toxicological Profile for Ethylene Glycol. Chapter 6: Potential for Human Exposure. Agency for Toxic Substances and Disease Registry.

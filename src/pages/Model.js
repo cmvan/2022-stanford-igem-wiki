@@ -4,19 +4,19 @@ import Template from './Template';
 
 export default function Model() {
   return (
-    <Template title="Model">
+    <Template title="Modeling">
       <h1>Project Modeling</h1>
       <p>
         We used two major models as part of our project: a protein model and a set of phylogenies. We have chosen to share our process in great detail to make our work more reproducible, and to point out stumbling blocks that may be relevant to anyone else attempting this type of modeling. We carried out much of this project in web servers, which are accessible to most people with some academic or institutional affiliation.
       </p>
 
-      <h2>Protein Modeling and Docking</h2>
+      <h1>Docking</h1>
       <p>
         In structural biology, “docking” is a computational process in which a protein is fitted to some other structure (typically a ligand, small molecule, other protein) in accordance with biochemical and mechanical principles. Docking can be used as a tool for drug discovery, for identifying amino acids that are relevant to the binding affinities of a protein, and for estimating the bond energy of a protein-ligand complex. We chose to use docking to qualitatively evaluate the binding affinity of our rational design PETase mutants to PET plastic as a way of validating our designs. 
       </p>
 
-      <h3>The Docking Process</h3>
-      <h4>Preparing the Foundational Protein Structure File</h4>
+      <h2>The Docking Process</h2>
+      <h3>Preparing the Foundational Protein Structure File</h3>
       <p>
         To model our foundational PETase, we started with a solved crystal structure from the Protein Data Bank (PDB). The PDB is a public repository for protein structures that have been discovered experimentally. The PDB has its own filetype, which is designed to store spatial and structural information about proteins and other biomolecules. PDB files can be used to construct 3D models of proteins, like the one shown below.
       </p>
@@ -54,7 +54,7 @@ export default function Model() {
       <p>
         We initially intended to use HADDOCK as our docking software of choice, as it’s widely available for use through a very user-friendly <a href="https://wenmr.science.uu.nl/haddock2.4/" target="_blank" rel="noreferrer noopener">web server</a>. However, the HADDOCK server is unable to take in precise data about the structures of ligands, and the local version of the software, which allows more parameters to be entered, was not compatible with the technology available to the team while modeling was underway. As a result, we were unable to carry out docking to the extent that we hoped. In the future, we would like to conduct docking experiments between PET and PETase over a range of pH values and plot the resultant dissociation constant estimates.
       </p>
-      <h4>Creating and Validating Mutant Structure Files</h4>
+      <h3>Creating and Validating Mutant Structure Files</h3>
       <p>
       As part of our two-pronged approach to engineering the PETase protein, we used rational design methods to select two point mutations that we predicted would improve the activity of FAST-PETase at low pH levels. More information on the process of creating these mutants can be found on our <Link to="/improvement">Improvement of an Existing Part</Link> page.
       </p>
@@ -105,10 +105,10 @@ export default function Model() {
       One limitation to both RoseTTAFold and AlphaFold is their reliance on extrapolation from a relatively small dataset. Both software programs use neural networks trained from the experimental data in the PDB. Because both of our mutants involve changes to a highly-conserved catalytic triad, it’s unlikely that there are any files in the PDB with very similar structures to the mutants. Therefore, the experimental data from which RoseTTAFold’s models are built is biased to produce a model with rigid conformations that don’t easily move in response to mutations.
       </p>
 
-      <h2>PETase Phylogenies by Sequence and Structure</h2>
+      <h1>PETase Phylogenies by Sequence and Structure</h1>
       <p>The process by which PETase evolved in Ideonella sakaiensis is not well-understood, and the enzyme appears to only have close homology to a few proteins. The lack of PETase-related proteins known in nature is unfortunate, as it limits the sample space for experimentation and characterization around PETase. That said, in order to better understand the structure and behavior of PETase while carrying out our rational design work, we decided to compare it to a variety of other proteins through a set of phylogenies. The first type of phylogeny we created was a fairly standard construction based on differences in amino acid sequence. The second phylogeny was more unusual: it was constructed based on the structures of the sequence-related proteins, and relied on exciting advances in the field of computational protein modeling. The phylogenetic component of our modeling work was based heavily on the procedures described in “Structure-based phylogeny identifies avoralstat as a TMPRSS2 inhibitor that prevents SARS-CoV-2 infection in mice” by Sun et al. (2021) [1], from which the code for 3DPhyloFold was borrowed (DOI 10.17632/kk3gkzdsbf.2.). </p>
 
-      <h3>Sequence Phylogeny</h3>
+      <h2>Sequence Phylogeny</h2>
       <p>
       Sequence phylogenies compare the sequences of DNA or protein molecules to each other in order to guess at the biomolecule’s evolutionary lineage. These can provide useful information about the relationships between different proteins, and even hint at the mechanistic and physical traits of related proteins. To find a set of proteins with some similarity to PETase, we used the <a href="https://www.ebi.ac.uk/Tools/hmmer/" target="_blank" rel="noreferrer noopener">HMMER web server</a>, which uses hidden Markov model analysis to thoroughly search the entire tree of life for sequence analogs of the protein of interest. We received over 2,500 Uniprot IDs from HMMER, but cut down our list to the top 74 most similar proteins. We created a multiple sequence alignment in <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank" rel="noreferrer noopener">BLAST</a> and used IQ-Tree web server to generate the phylogenetic tree. We let IQ-Tree choose the most effective tree-making method, which was LG+F+I+G4, and ran 1,000 replicates. Using the data from IQ-Tree, we created the phylogenetic data display in MEGA-X. 
       </p>
@@ -118,7 +118,7 @@ export default function Model() {
       This phylogeny is interesting, but not totally surprising. The closest sequence relationship that the I. sakaiensis PETase has is one to another PETase protein, from Rhizobacter gummiphilus. These two proteins are known to have different electric behavior on their surfaces, however, which affects their reactivity (Sagong et al. 2021).
       </p>
 
-      <h3>Structural Phylogeny</h3>
+      <h2>Structural Phylogeny</h2>
       <p>
       For the structural phylogeny element of our modeling work, we first had to collect structures for the 75 most similar proteins from the sequence phylogeny. When we initially went looking for these structures, we realized quickly that there were not nearly enough files in the PDB to create any meaningful structural relationships related to PETase. However, shortly after we came to this conclusion, AlphaFold released 200 million new computationally-modeled protein structures. In order to take advantage of this incredible new resource, we wrote a program that could take a list of protein IDs and use it to download the latest AlphaFold structures for those proteins.
       </p>
@@ -132,7 +132,7 @@ export default function Model() {
       <p>
       In comparison to the sequence-based tree, few proteins have significantly changed their positions relative to PETase, which may suggest that amino acid sequences that do not resemble that of PETase are unlikely to converge to a similar structure. This makes our directed evolution project, which even more interesting. Going forward, a more advanced quantitative comparison of the DSMs for the sequence and structural phylogenies could reveal any outliers between the sequence and structural alignments. If the proteins in the phylogenies have properties we want to emulate in PETase, then these comparisons may guide us toward more unconventional and informed rational designs in the future.
       </p>
-      <h4>References</h4>
+      <h1>References</h1>
       <ol className="references">
         <li>
         Michaelis-Menten Kinetics and Briggs-Haldane Kinetics [Internet]. [cited 2022 Oct 14]. Available from: https://depts.washington.edu/wmatkins/kinetics/michaelis-menten.html
