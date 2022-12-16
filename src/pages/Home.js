@@ -1,3 +1,4 @@
+import { Col, Container, Row } from 'react-bootstrap'
 import Template from './Template';
 
 export default function Home() {
@@ -9,10 +10,38 @@ export default function Home() {
       </p>
       <h2>Check out our video for a SPEEDY introduction :D</h2>
       <iframe className="d-block mx-auto space-above"title="Stanford: MORPH (2022) - Project Promotion [English]" width="840" height="473" src="https://video.igem.org/videos/embed/9323e1c8-b182-49ea-b680-b50bdd0cab61" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-      <h1>Join Stanford iGEM</h1>
+      <h1>Join Stanford iGEM!</h1>
       <p>
         Find Project MORPH exciting? Want to craft similar projects in synthetic biology? Click the button below to learn about how YOU can get involved with Stanford iGEM! 
       </p>
+      <Container>
+        <Row>
+          <Col class="d-flex justify-content-center">
+            <img 
+              class="img-responsive"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-at-grand-jamboree.jpg"
+              alt="Stanford iGEM at Grand Jamboree"
+              width="400em"
+              height="400em"
+            />
+            <img 
+              class="img-responsive"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-hands.jpg"
+              alt="Stanford iGEM at Grand Jamboree"
+              width="325em"
+              height="400em"
+            />
+            <img 
+              class="img-responsive"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-at-dinner.jpeg"
+              alt="Tokyo River Friends Collecting Trash"
+              width="550em"
+              height="400em"
+            />
+          </Col>
+        </Row>
+      </Container>
+      <caption className="d-block mx-auto text-center">Fun Times with 2022 Stanford iGEM: This could be you! </caption>
       <a class="button" href='https://stanfordbiome.org/igem.html' target="_blank" rel="noreferrer">Join Stanford iGEM Today!</a>
     </Template>
   );
