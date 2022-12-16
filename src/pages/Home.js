@@ -21,25 +21,26 @@ export default function Home() {
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-at-grand-jamboree.jpg"
               alt="Stanford iGEM at Grand Jamboree"
-              width="400em"
-              height="400em"
+              width="31%"
+              height="80%"
             />
             <img 
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-hands.jpg"
               alt="Stanford iGEM at Grand Jamboree"
-              width="325em"
-              height="400em"
+              width="25%"
+              height="80%"
             />
             <img 
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-at-dinner.jpeg"
               alt="Tokyo River Friends Collecting Trash"
-              width="550em"
-              height="400em"
+              width="44%"
+              height="80%"
             />
           </Col>
         </Row>
+        
       </Container>
       <caption className="d-block mx-auto text-center">Fun Times with 2022 Stanford iGEM: This could be you! </caption>
       <a class="button" href='https://stanfordbiome.org/igem.html' target="_blank" rel="noreferrer">Join Stanford iGEM Today!</a>
