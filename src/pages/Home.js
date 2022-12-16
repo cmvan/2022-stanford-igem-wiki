@@ -34,14 +34,14 @@ export default function Home() {
             <img 
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-in-office.jpg"
-              alt="Tokyo River Friends Collecting Trash"
+              alt="Stanford iGEM in Office"
               width="25%"
               height="100%"
             />
             <img 
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/presenting-at-biox.jpg"
-              alt="Tokyo River Friends Collecting Trash"
+              alt="Stanford iGEM Members Presenting at Bio-X Symposium"
               width="25%"
               height="100%"
             />
@@ -53,21 +53,28 @@ export default function Home() {
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-at-grand-jamboree.jpg"
               alt="Stanford iGEM at Grand Jamboree"
-              width="33%"
+              width="30%"
               height="100%"
             />
             <img 
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-hands.jpg"
-              alt="Stanford iGEM Teamwork"
-              width="24%"
+              alt="Stanford iGEM Hands Showing Teamwork"
+              width="20%"
               height="100%"
             />
             <img 
               class="img-responsive"
               src="https://static.igem.wiki/teams/4466/wiki/pages/home/stanford-igem-at-dinner.jpeg"
               alt="Stanford iGEM at Dinner"
-              width="43%"
+              width="30%"
+              height="100%"
+            />
+            <img 
+              class="img-responsive"
+              src="https://static.igem.wiki/teams/4466/wiki/pages/home/walking-thru-paris.jpg"
+              alt="Stanford iGEM Walking Through Paris"
+              width="20%"
               height="100%"
             />
           </Col>
