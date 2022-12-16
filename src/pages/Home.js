@@ -11,7 +11,7 @@ export default function Home() {
       <iframe className="d-block mx-auto space-above"title="Stanford: MORPH (2022) - Project Promotion [English]" width="840" height="473" src="https://video.igem.org/videos/embed/9323e1c8-b182-49ea-b680-b50bdd0cab61" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
       <h1>Join Stanford iGEM</h1>
       <p>
-        Find Project MORPH exciting? Want to craft similar projects in synthetic biology? Click the button below to learn how YOU can get involved with Stanford iGEM! 
+        Find Project MORPH exciting? Want to craft similar projects in synthetic biology? Click the button below to learn about how YOU can get involved with Stanford iGEM! 
       </p>
       <a class="button" href='https://stanfordbiome.org/igem.html' target="_blank" rel="noreferrer">Join Stanford iGEM Today!</a>
     </Template>
