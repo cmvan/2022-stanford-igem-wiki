@@ -7,8 +7,7 @@ export default function Contribution() {
   return (
     <Template title="Contribution">
       <h1>OrthoRep</h1>
-      <h2>Introduction</h2>
-      <h3>The Basics of Directed Evolution</h3>
+      <h2>An Introduction: The Basics of Directed Evolution</h2>
 
       <img 
         className="d-block mx-auto"
@@ -33,10 +32,10 @@ export default function Contribution() {
         </li>
       </ul>
 
-      <h3>What is OrthoRep?</h3>
+      <h2>What is OrthoRep?</h2>
       <p>Our project used a random mutagenesis method of directed evolution called OrthoRep to evolve our GOI that encodes for the FAST-PETase enzyme. Designed by Chang Liu et. al. at UC Irvine, OrthoRep is a molecular biology system that allows for “Scalable, Continuous Evolution of Genes at Mutation Rates above Genomic Error Thresholds” [2]. OrthoRep functions in living S. cerevisiae cells as they grow and divide. While OrthoRep rapidly mutates a GOI, you can apply certain selective pressures on your cells to push the evolution of that gene towards customizable phenotypes of your choice. This can be applied to any gene of your choosing that could be expressed in S. cerevisiae, so its potential for use in iGEM projects is limitless. For example, one could reprogram ligand specificity of biosensors [3], optimize promoters, or improve an enzyme’s efficiency. The advantage of OrthoRep over other directed evolution methods is that you can rapidly evolve biomolecules in a high-throughput setting. This is because it works continuously in vivo, with more and more mutations in the GOI added with each cell division. By designing an efficient selection method for the genetically diverse population of cells, one can essentially automate the testing of large numbers of mutant biomolecules in order to select for characteristics of a desired evolved version.</p>
       
-      <h2>Our Contribution</h2>
+      <h1>Our Contribution</h1>
       <p>We believe we are the first iGEM team to successfully implement OrthoRep in their project, so we wanted to provide a comprehensive guide for future teams so they may also find success in using it to evolve their desired biomolecules. Since there is abundant potential for applications, our goal is to help others tap into this cool system so that many more innovative synthetic biology projects may be realized! OrthoRep is a system with a variety of moving parts so it can be complicated to implement, but we hope our tips and tricks will make it accessible to anyone who has curiosity and determination. On this page we will guide you through:</p>
       <ul>
         <li>How OrthoRep works</li>
@@ -44,7 +43,7 @@ export default function Contribution() {
         <li>Potential Selection Methods</li>
       </ul>
 
-      <h3>How OrthoRep Works</h3>
+      <h2>How OrthoRep Works</h2>
       
       <img 
         className="d-block mx-auto"
@@ -83,7 +82,7 @@ export default function Contribution() {
       />
       <caption className="d-block mx-auto text-center"> Integration of cassette into p1 by homology arms</caption>
 
-      <h3>Steps Taken to Implement OrthoRep</h3>
+      <h2>Steps Taken to Implement OrthoRep</h2>
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>1. Build the integration cassette for integration into p1.</Accordion.Header>
@@ -151,7 +150,7 @@ export default function Contribution() {
         </Accordion.Item>
       </Accordion>
 
-      <h3>Potential Selection Methods</h3>
+      <h2>Potential Selection Methods</h2>
       <p>
         Once you have a culture of mutating yeast, you have accomplished the 1st part of directed evolution: iterative rounds of gene diversifications. Now you need to design the 2nd part: library screening/selection of the evolving biomolecule. The design will depend on what phenotype you want to select for, but it should include the repeated seeding of many smaller independent cultures from the initial culture. This causes multiple lines or branches of evolution to occur, making it more likely to find a branch that will evolve into the desired phenotype. A way to screen all these cultures for the presence of the desired trait will be project-specific, and will require creativity to make it efficient and high-throughput. Here are some examples of selection methods you might use:
       </p>
@@ -171,18 +170,18 @@ export default function Contribution() {
         After selecting a culture that has evolved to express the desired phenotype, grow it up and repeat the selection process of dividing it into smaller cultures and screening them again. This will gradually apply a selective pressure to further improve your biomolecule in the direction of your choice. 
       </p>
 
-      <h2>Other Contributions</h2>
-      <h3>AlphaFold Downloader</h3>
+      <h1>Other Contributions</h1>
+      <h2>AlphaFold Downloader</h2>
       <p>
       This summer, the AlphaFold Structure Database released 200 million new computer-generated protein structures, expanding the sample space of all known protein structures twenty-fold. To take advantage of this massive new library of proteins, we developed an automated web scraper that accepts a list of Uniprot IDs and downloads the most recent structural PDB files for each protein in the list from the online AlphaFold database. The program is flexible and light, and can be adjusted to download files from any online database. Its download rate is optimized to reduce 429 request errors from the AlphaFold website. As part of the modeling component of our project, we used the program to download PDB files for over 2,500 Uniprot IDs in a single run. We have released this program in our team’s Software Gitlab for use by any future team or other research group, including an example input list and output data for a large-scale protein download run.
       </p>
 
-      <h3>Legacy</h3>
+      <h2>Legacy</h2>
       <p>
         After the virtual years during COVID-19, the Stanford iGEM team had lost a lot of guidance/critical instructions for future iGEM teams. As the first team back, the Stanford 2022 iGEM team made it one of its missions to leave behind a drive of protocols for future teams to rely on. This included finance, logistics, lab processes, and outreach protocols based on guidelines and lessons we learned from our mistakes. We hope to set up next year’s team for a smooth transition that leads to success.
       </p>
 
-      <h4>References</h4>
+      <h1>References</h1>
       <ol className="references">
         <li>
           Wang, Y., Xue, P., Cao, M., Yu, T., Lane, S. T., & Zhao, H. (2021). Directed evolution: methodologies and applications. <i>Chemical Reviews</i>, <i>121</i>(20), 12384–12444. https://doi.org/10.1021/acs.chemrev.1c00260 

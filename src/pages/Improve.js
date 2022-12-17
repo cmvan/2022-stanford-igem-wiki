@@ -81,6 +81,15 @@ export default function Improve() {
         process of comparing the efficiencies of the original FAST-PETase and our mutant under 
         low pH experimentally (see <Link to="/results">Results</Link>).
       </p>
+      <h1>References</h1>
+      <ol className="references">
+        <li>
+          iGEM. (2011). Gluten Destruction: Background. Team:Washington/Celiacs/Background. Retrieved October 8, 2022, from <a href="https://2011.igem.org/Team:Washington/Celiacs/Background" target="_blank" rel="noreferrer">https://2011.igem.org/Team:Washington/Celiacs/Background</a>
+        </li>
+        <li>
+          Han, X., Liu, W., Huang, J.-W., Ma, J., Zheng, Y., Ko, T.-P., … Guo, R.-T. (2017). Structural insight into catalytic mechanism of PET hydrolase. Nature Communications, 8(1), 2106. <a href="https://doi.org/10.1038/s41467-017-02255-z" target="_blank" rel="noreferrer">https://doi.org/10.1038/s41467-017-02255-z</a>
+        </li>
+      </ol>
     </Template>
   );
 }
