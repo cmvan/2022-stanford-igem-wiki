@@ -1,4 +1,5 @@
 import Accordion from 'react-bootstrap/Accordion'
+import { Link } from 'react-router-dom'
 import Template from './Template';
 
 export default function Experiments() {
@@ -12,6 +13,16 @@ export default function Experiments() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>MiniPreps</Accordion.Header>
           <Accordion.Body>
+            <h2>Materials:</h2>
+            <ul>
+              <li>P1 Buffer</li>
+              <li>P2 Buffer</li>
+              <li>N3 Buffer</li>
+              <li>2 mL Blue Spinning Columns</li>
+              <li>PE Buffer</li>
+              <li>Elution Buffer</li>
+              <li>1.5 mL Eppendorf Tubes</li>
+            </ul>
             <h2>Procedure: </h2>
             <ol>
               <li>
@@ -123,6 +134,19 @@ export default function Experiments() {
         <Accordion.Item eventKey="1">
           <Accordion.Header>Yeast gDNA Extraction</Accordion.Header>
           <Accordion.Body>
+            <h2>Materials:</h2>
+            <ul>
+              <li>1.7 mL tubes</li>
+              <li>TTESS</li>
+              <li>RNAas A</li>
+              <li>Micro Beads</li>
+              <li>Phenol</li>
+              <li>Sodium Acetate</li>
+              <li>Isopropyl Alcohol</li>
+              <li>70% Ethanol</li>
+              <li>Elution Buffer</li>
+              <li>Nanodrop Spectrophotometer</li>
+            </ul>
             <h2>Procedure: </h2>
             <ol>
               <li>
@@ -135,7 +159,7 @@ export default function Experiments() {
               Aspirate the supernatant using sterile pipette tips. 
               </li>
               <li>
-              Resuspend the pellet using 400-500ul TTESS and add 1ul of Rnase A (yellow cooler box in mini freezer).
+              Resuspend the pellet using 400-500ul TTESS and add 1ul of RNAse A.
               </li>
               <li>
               Add micro beads (~1/3 of the pcr tube of beads) into the tube and vortex for 1 minute.
@@ -153,7 +177,7 @@ export default function Experiments() {
               Add 10% of that volume of Sodium Acetate (NaAc) and 2 volumes of IPA?? (Ex. For 300ul dna, add 30ul NaAc and 660ul IPA).
               </li>
               <li>
-              Place in the -20°C freezer for 1 minute (not sure if this order is correct).
+              Place in the -20°C freezer for 1 minute.
               </li>
               <li>
               Centrifuge again 10 min
@@ -162,7 +186,7 @@ export default function Experiments() {
               Carefully aspirate the supernatant without disturbing the pellet (it’s very small!).
               </li>
               <li>
-              Add ~ 500ul of 70% Ethanol (Etoh) and centrifuge.
+              Add ~ 500ul of 70% Ethanol (EtOH) and centrifuge.
               </li>
               <li>
               Add ~ 50ul of 70% Ethanol and centrifuge.
@@ -186,6 +210,17 @@ export default function Experiments() {
         <Accordion.Item eventKey="2">
           <Accordion.Header>Gel Electrophoresis</Accordion.Header>
           <Accordion.Body>
+            <h2>Materials:</h2>
+            <ul>
+              <li>10X TBE/TAE Buffer</li>
+              <li>milliQ water</li>
+              <li>Gel Box</li>
+              <li>Gel Tray, Gel Plastic Holder, and Comb</li>
+              <li>Agarose Powder</li>
+              <li>500 mL Flask</li>
+              <li>Heat Resistant Gloves</li>
+              <li>Sample of Interest</li>
+            </ul>
             <h2>Procedure: </h2>
             <ol>
               <li>
@@ -263,40 +298,52 @@ export default function Experiments() {
         <Accordion.Item eventKey="3">
           <Accordion.Header>Gel Purification</Accordion.Header>
           <Accordion.Body>
-          <h2>Procedure: </h2>
-          <ol>
-              <li>
-              Weigh gel fragment (write weight on tube), then add 3X volume of gel solubilization/QG buffer (yellow) (6X for ≥1.8% gels) (100mg = 100ul)
-              </li>
-              <li>
-              Incubate in the shaker at 50 °C for ~3-5 min at 1000 RPM. 
-              </li>
-              <li>
-              Add 1 gel volume of isopropyl alcohol (IPA).
-              </li>
-              <li>
-              Dispense 750ul of solution into a Zymo-Spin I column (white tube) (Cat# C1003-50) inserted into a 2.0ml Eppendorf tube. 
-              </li>
-              <li>
-              Centrifuge for 1 min. Then repeat this step if there is remaining leftover gel solution from steps 1-4.
-              </li>
-              <li>
-              Transfer column to new 2.0 ml Eppendorf tube, add 500 μl of PE wash buffer then centrifuge for 30 seconds
-              </li>
-              <li>
-              Transfer column to new 1.5 ml Eppendorf tube, and add 15μl of elution buffer depending on the downstream step and brightness of the band.
-              </li>
-              <li>
-              Dispense elution buffer directly onto the column, let sit for 1 min, and then centrifuge for 1 min. We elute in 15ul.
-              </li>
-              <li>
-              Transfer elution to new 1.5 ml Eppendorf tube and label with description, name, date. Nanodrop and write concentration on a tube.
-              </li>
-              <li>
-              Store labeled Eppendorf tube in the fridge.
-              </li>
-
-            </ol>
+            <h2>Materials:</h2>
+            <ul>
+              <li>Eppendorf Tubes</li>
+              <li>PCR Tubes</li>
+              <li>dNTPs (Deoxynucleotide Triphosphates)</li>
+              <li>KOD Xtreme Hotstart DNA Polymerase</li>
+              <li>2X Xtreme Buffer</li>
+              <li>Freeze-Dried Forward Primer</li>
+              <li>Freeze-Dried Reverse Primer</li>
+              <li>Integration Plasmid</li>
+              <li>MilliQ Water</li>
+              <li>Primer Stocks</li>
+            </ul>
+            <h2>Procedure: </h2>
+            <ol>
+                <li>
+                Weigh gel fragment (write weight on tube), then add 3X volume of gel solubilization/QG buffer (yellow) (6X for ≥1.8% gels) (100mg = 100ul)
+                </li>
+                <li>
+                Incubate in the shaker at 50 °C for ~3-5 min at 1000 RPM. 
+                </li>
+                <li>
+                Add 1 gel volume of isopropyl alcohol (IPA).
+                </li>
+                <li>
+                Dispense 750ul of solution into a Zymo-Spin I column (white tube) (Cat# C1003-50) inserted into a 2.0ml Eppendorf tube. 
+                </li>
+                <li>
+                Centrifuge for 1 min. Then repeat this step if there is remaining leftover gel solution from steps 1-4.
+                </li>
+                <li>
+                Transfer column to new 2.0 ml Eppendorf tube, add 500 μl of PE wash buffer then centrifuge for 30 seconds
+                </li>
+                <li>
+                Transfer column to new 1.5 ml Eppendorf tube, and add 15μl of elution buffer depending on the downstream step and brightness of the band.
+                </li>
+                <li>
+                Dispense elution buffer directly onto the column, let sit for 1 min, and then centrifuge for 1 min. We elute in 15ul.
+                </li>
+                <li>
+                Transfer elution to new 1.5 ml Eppendorf tube and label with description, name, date. Nanodrop and write concentration on a tube.
+                </li>
+                <li>
+                Store labeled Eppendorf tube in the fridge.
+                </li>
+              </ol>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="4">
@@ -350,6 +397,23 @@ export default function Experiments() {
         <Accordion.Item eventKey="5">
           <Accordion.Header>Gasket Formulation</Accordion.Header>
           <Accordion.Body>
+            <h2>Materials: </h2>
+            <ul>
+              <li>Silicone RPRO 30 (parts A and B)</li>
+              <li>2 Hand-Sized Weighboats</li>
+              <li>Stirring Rods</li>
+              <li>Metal Lab Spoon</li>
+              <li>Green Autoclave Tape</li>
+              <li>Balance</li>
+              <li>Vacuum Chamber</li>
+              <li>Incubator</li>
+              <li>2 Microscope Slides</li>
+              <li>Acetone</li>
+              <li>Scraper</li>
+              <li>Mold Release Spray</li>
+              <li>3D printed Gasket Mold</li>
+              <li>Kimwipes</li>
+            </ul>
             <h2>Procedure: </h2>
             <ol>
               <li>
@@ -410,7 +474,9 @@ export default function Experiments() {
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
-
+      <p>
+        For a complete timeline of when these and other experimental procedures were completed for Project MORPH, check out our <Link to="/notebook">Wet Lab Notebook</Link>!
+      </p>
     </Template>
   );
 }
