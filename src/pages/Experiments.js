@@ -298,18 +298,15 @@ export default function Experiments() {
         <Accordion.Item eventKey="3">
           <Accordion.Header>Gel Purification</Accordion.Header>
           <Accordion.Body>
-            <h2>Materials:</h2>
+            <h2>Materials: </h2>
             <ul>
+              <li>Gel Solubilization/QG buffer </li>
+              <li>Sodium Acetate</li>
+              <li>Isopropyl Alcohol (IPA)</li>
+              <li>Zymo Spin Columns</li>
+              <li>PE Wash Buffer</li>
+              <li>Elution Buffer </li>
               <li>Eppendorf Tubes</li>
-              <li>PCR Tubes</li>
-              <li>dNTPs (Deoxynucleotide Triphosphates)</li>
-              <li>KOD Xtreme Hotstart DNA Polymerase</li>
-              <li>2X Xtreme Buffer</li>
-              <li>Freeze-Dried Forward Primer</li>
-              <li>Freeze-Dried Reverse Primer</li>
-              <li>Integration Plasmid</li>
-              <li>MilliQ Water</li>
-              <li>Primer Stocks</li>
             </ul>
             <h2>Procedure: </h2>
             <ol>
@@ -349,6 +346,19 @@ export default function Experiments() {
         <Accordion.Item eventKey="4">
           <Accordion.Header>PCR</Accordion.Header>
           <Accordion.Body>
+            <h2>Materials:</h2>
+            <ul>
+              <li>Eppendorf Tubes</li>
+              <li>PCR Tubes</li>
+              <li>dNTPs (Deoxynucleotide Triphosphates)</li>
+              <li>KOD Xtreme Hotstart DNA Polymerase</li>
+              <li>2X Xtreme Buffer</li>
+              <li>Freeze-Dried Forward Primer</li>
+              <li>Freeze-Dried Reverse Primer</li>
+              <li>Integration Plasmid</li>
+              <li>MilliQ Water</li>
+              <li>Diluted 10uM Primer Stocks</li>
+            </ul>
             <h2>Procedure: </h2>
             <ol>
               <li>
@@ -469,6 +479,103 @@ export default function Experiments() {
               </li>
               <li>
               Clean the mold by rinsing with water and scrubbing with a toothbrush and/or bottle brush
+              </li>
+            </ol>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="6">
+          <Accordion.Header>Protein Purification and SDS-PAGE GEL Protocol</Accordion.Header>
+          <Accordion.Body>
+            <h2>Notes on Materials: </h2>
+            <p>
+              Materials list and stacking gel production protocols for this procedure are available upon request. The documentation for this procedure is under revision; please contact <a href="mailto:phillicl@stanford.edu">phillicl@stanford.edu</a> before attempting to conduct the experiment as described.
+            </p>
+            <h2>General Notes: </h2>
+            <ul>
+              <li>All protein samples should remain on ice throughout this experiment.</li>
+              <li>All gel samples should be at least 10 μL in volume.</li>
+            </ul>
+            <h2>Procedure: </h2>
+            <ol>
+              <li>
+                Spin down induced cell cultures, aspirate supernatant
+                <ul>
+                  <li>
+                    Our induction operon includes cold-activated endolysin, so we induce our cells, thaw them and then they break open somewhat autonomously, making for a milder lysis step.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Add 1 μL benzenease to the cell pellet
+              </li>
+              <li>
+                Resuspend the pellet in 50 μL lysis buffer (50 mL pre-NTA buffer, 3% Triton, 100x diluted protease inhibitor, 1 mM mercaptoethanol)
+              </li>
+              <li>
+                Wait 5 minutes. For the gel, take the WC sample from the solution.
+              </li>
+              <li>
+                Spin the pellet down again, collect supernatant (measure supernatant protein concentration using a Nanodrop device). For the gel, take the SOL sample from supernatant, resuspend the pellet, and take an INS sample.
+              </li>
+              <li>
+                Clean nickel beads
+                <ol type="A">
+                  <li>
+                    Collect beads into an Eppendorf tube
+                  </li>
+                  <li>
+                    Allow beads to settle in the tube, aspirate ethanol that rises to the surface of the tube
+                  </li>
+                  <li>
+                    Rinse the beads twice in lysis buffer
+                  </li>
+                  <ol type="i">
+                    <li>
+                      Add 1 mL lysis buffer, flick and invert the tube to resuspend the beads
+                    </li>
+                    <li>
+                      Centrifuge the beads at 200 rcf for thirty seconds, turn the tubes 180 degrees in the centrifuge, and then spin them for another thirty seconds
+                    </li>
+                    <li>
+                      Aspirate out the lysis buffer, and repeat the entire process
+                    </li>
+                  </ol>
+                </ol>
+              </li>
+              <li>
+                Add 30 μL Ni beads per 10 mL cell culture in the supernatant sample tube (use a wide-bore pipette for easy loading)
+              </li>
+              <li>
+                Place the tubes in the rotator at 4 degrees Celsius for ten minutes.
+              </li>
+              <li>
+                Spin the beads at 200 rcf for 1 minute. For the gel, collect the FT sample from bead supernatant
+              </li>
+              <li>
+                Aspirate supernatant, add 40 μL elution buffer to beads
+                <ul>
+                  <li>
+                    Elution buffer: 25% 500 mM imidazole, 75% lysis buffer
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Place the weighboat with the mixture into the vacuum chamber and run it for 15 minutes
+              </li>
+              <li>
+                Place the tubes in the rotator at 4 degrees Celsius for ten minutes.
+              </li>
+              <li>
+                Spin the beads at 200 rcf for 1 minute. For the, collect B sample from bead supernatant
+              </li>
+              <li>
+                Measure supernatant protein concentration via Nanodrop
+              </li>
+              <li>
+                For the gel, boil proteins in tube heater at 212 degrees Celsius for 5 minutes - weigh down tubes with a tube rack
+              </li>
+              <li>
+                For the gel, load protein samples into stacking gel
               </li>
             </ol>
           </Accordion.Body>
